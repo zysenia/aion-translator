@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aion-translator.zysen.de/sitemap.xml

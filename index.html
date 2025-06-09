@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta name='description'
+    content='Easily translate messages between Elyos and Asmodians in Aion. Our tool deciphers faction chat so you can understand what the other side is saying.' />
+  <meta property='og:title' content='Aion Translator – Free & Easy to use Aion Translation Tool by Zysen' />
+  <meta property='og:description'
+    content='Easily translate messages between Elyos and Asmodians in Aion. Our tool deciphers faction chat so you can understand what the other side is saying.' />
+  <meta property='og:image' content='https://aion-translator.zysen.de/resources/og-aion-translator-by-zysen.png' />
+  <meta property='og:url' content='https://aion-translator.zysen.de' />
+  <meta name='twitter:card' content='summary_large_image' />
+  <link rel='canonical' href='https://aion-translator.zysen.de' />
+  <title>Aion Translator – Free & Easy to use Aion Translation Tool</title>
+  <link rel='apple-touch-icon' sizes='57x57' href='/resources/icons/apple-icon-57x57.png'>
+  <link rel='apple-touch-icon' sizes='60x60' href='/resources/icons/apple-icon-60x60.png'>
+  <link rel='apple-touch-icon' sizes='72x72' href='/resources/icons/apple-icon-72x72.png'>
+  <link rel='apple-touch-icon' sizes='76x76' href='/resources/icons/apple-icon-76x76.png'>
+  <link rel='apple-touch-icon' sizes='114x114' href='/resources/icons/apple-icon-114x114.png'>
+  <link rel='apple-touch-icon' sizes='120x120' href='/resources/icons/apple-icon-120x120.png'>
+  <link rel='apple-touch-icon' sizes='144x144' href='/resources/icons/apple-icon-144x144.png'>
+  <link rel='apple-touch-icon' sizes='152x152' href='/resources/icons/apple-icon-152x152.png'>
+  <link rel='apple-touch-icon' sizes='180x180' href='/resources/icons/apple-icon-180x180.png'>
+  <link rel='icon' type='image/png' sizes='192x192' href='/resources/icons/android-icon-192x192.png'>
+  <link rel='icon' type='image/png' sizes='512x512' href='/resources/icons/android-icon-512x512..png'>
+  <link rel='icon' type='image/png' sizes='32x32' href='/resources/icons/favicon-32x32.png'>
+  <link rel='icon' type='image/png' sizes='48x48' href='/resources/icons/favicon-48x48.png'>
+  <link rel='icon' type='image/png' sizes='96x96' href='/resources/icons/favicon-96x96.png'>
+  <link rel='icon' type='image/png' sizes='16x16' href='/resources/icons/favicon-16x16.png'>
+  <link rel='manifest' href='/manifest.json'>
+  <meta name='msapplication-config' content='/browserconfig.xml'>
+  <meta name='msapplication-TileColor' content='#ffffff'>
+  <meta name='msapplication-TileImage' content='/resources/icons/ms-icon-144x144.png'>
+  <meta name='theme-color' content='#ffffff'>
+  <link href='https://fonts.googleapis.com/css2?family=Cinzel&display=swap' rel='stylesheet'>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+  <div class='bg-image-wrapper'>
+    <img src='resources/aion-asmo-1920x1080.png' srcset='resources/aion-asmo-7680x4320.png 7680w,
+              resources/aion-asmo-3840x2160.png 3840w,
+              resources/aion-asmo-2560x1440.png 2560w,
+              resources/aion-asmo-1920x1080.png 1920w,
+              resources/aion-asmo-1280x720.png 1280w,
+              resources/aion-asmo-960x540.png 960w,
+              resources/aion-asmo-640x360.png 640w,
+              resources/aion-asmo-420x236.png 420w,
+              resources/aion-asmo-412x732.png 412w' alt='background image of the Asmodian faction' class='bg-image'
+      id='bg-image'>
+  </div>
+  <div class='container'>
+    <h1>Asmodian ↔ Elyos Translator for Aion</h1>
+    <div class='mode-switch'>
+      <span id='mode-label'>Mode: Asmodian → Elyos</span>
+      <button onclick='toggleMode()'>Switch Faction</button>
+    </div>
+
+    <textarea id='input' maxlength='255' placeholder='Enter your message...'></textarea>
+    <p id='message-limit-warning'>You’ve reached the 255 character limit for Aion text messages.</p>
+
+    <div class='output' id='output'></div>
+    <button onclick='copyOutput()'>Copy Translation</button>
+  </div>
+
+  <script src='scripts/translator.js'></script>
+</body>
+
+</html>
