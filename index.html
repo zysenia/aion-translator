@@ -56,6 +56,17 @@
     <div class='mode-switch'>
       <span id='mode-label'>Mode: Asmodian → Elyos</span>
       <button onclick='toggleMode()'>Switch Faction</button>
+      <div style='display:flex; align-items:center; position:relative;'>
+        <button class='picker-btn' id='openPickerBtn' title='select icon' type='button'>
+          <img src='/resources/chat-icons/Emoticons/emoticon_wink.png' alt='Icon'>
+        </button>
+        <div class='picker-popup' id='iconPicker'>
+          <input class='picker-search' id='pickerSearch' placeholder='Search... [still in development]'
+            oninput='renderPickerTabs(); renderPickerIcons()'>
+          <div class='picker-tabs' id='pickerTabs'></div>
+          <div class='picker-icons' id='pickerIcons'></div>
+        </div>
+      </div>
     </div>
 
     <textarea id='input' maxlength='255' placeholder='Enter your message...'></textarea>
@@ -65,6 +76,15 @@
     <button onclick='copyOutput()'>Copy Translation</button>
   </div>
 
+  <footer class="footer-banner">
+    <p>If you've got any suggestions or problems reach out: 
+      <a href="mailto:aion-translator@zysen.de?subject=Feedback%20for%20Aion%20Translator&body=Hi%2C%0A%0AI'd%20like%20to%20report%20a%20%5Bproblem/suggestion%5D%20with%20the%20Aion%20Translator.%0A%0AHere%20are%20some%20details%3A%0A-%20Issue%20or%20Suggestion%3A%20%5Bdescribe%20here%5D%0A-%20Faction%3A%20%5BElyos/Asmodian%5D%0A-%20Example%20Chat%20Message%3A%20%5Bcopy%20text%20here%5D%0A-%20Browser%2FPlatform%3A%20%5BChrome%2C%20Firefox%2C%20etc.%5D%0A%0AThanks%21">
+        aion-translator@zysen.de
+      </a>
+    </p>
+  </footer>
+
+  <script src='scripts/chat-icon-handler.js'></script>
   <script src='scripts/translator.js'></script>
 </body>
 

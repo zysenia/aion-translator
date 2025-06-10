@@ -1,0 +1,2667 @@
+[
+  {
+    "category": "Currencies",
+    "icons": [
+      {
+        "name": "Coin_PVP_02",
+        "src": "resources/chat-icons/Currencies/Coin_PVP_02.png",
+        "unicode": "\uE0EB",
+        "keywords": []
+      },
+      {
+        "name": "Coin_PVP_03",
+        "src": "resources/chat-icons/Currencies/Coin_PVP_03.png",
+        "unicode": "\uE0EC",
+        "keywords": []
+      },
+      {
+        "name": "Coin_gab_crystal_01",
+        "src": "resources/chat-icons/Currencies/Coin_gab_crystal_01.png",
+        "unicode": "\uE0F1",
+        "keywords": []
+      },
+      {
+        "name": "Coin_gab_crystal_02",
+        "src": "resources/chat-icons/Currencies/Coin_gab_crystal_02.png",
+        "unicode": "\uE0F2",
+        "keywords": []
+      },
+      {
+        "name": "Coin_gab_crystal_03",
+        "src": "resources/chat-icons/Currencies/Coin_gab_crystal_03.png",
+        "unicode": "\uE0F3",
+        "keywords": []
+      },
+      {
+        "name": "Coin_gab_crystal_04",
+        "src": "resources/chat-icons/Currencies/Coin_gab_crystal_04.png",
+        "unicode": "\uE0F4",
+        "keywords": []
+      },
+      {
+        "name": "Coin_gab_crystal_05",
+        "src": "resources/chat-icons/Currencies/Coin_gab_crystal_05.png",
+        "unicode": "\uE0F5",
+        "keywords": []
+      },
+      {
+        "name": "Coin_lucky",
+        "src": "resources/chat-icons/Currencies/Coin_lucky.png",
+        "unicode": "\uE0F7",
+        "keywords": []
+      },
+      {
+        "name": "Coin_magicstone_04",
+        "src": "resources/chat-icons/Currencies/Coin_magicstone_04.png",
+        "unicode": "\uE0F0",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_coin_01",
+        "src": "resources/chat-icons/Currencies/EnchantStone_coin_01.png",
+        "unicode": "\uE0FF",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_coin_02",
+        "src": "resources/chat-icons/Currencies/EnchantStone_coin_02.png",
+        "unicode": "\uE100",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_coin_03",
+        "src": "resources/chat-icons/Currencies/EnchantStone_coin_03.png",
+        "unicode": "\uE101",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_coin_04",
+        "src": "resources/chat-icons/Currencies/EnchantStone_coin_04.png",
+        "unicode": "\uE102",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_coin_05",
+        "src": "resources/chat-icons/Currencies/EnchantStone_coin_05.png",
+        "unicode": "\uE103",
+        "keywords": []
+      },
+      {
+        "name": "EnchantStone_dust_coin_07",
+        "src": "resources/chat-icons/Currencies/EnchantStone_dust_coin_07.png",
+        "unicode": "\uE104",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Cash_Item_Songpyeon_02",
+        "src": "resources/chat-icons/Currencies/Icon_Cash_Item_Songpyeon_02.png",
+        "unicode": "\uE170",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Badge10",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Badge10.png",
+        "unicode": "\uE10D",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Badge12",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Badge12.png",
+        "unicode": "\uE131",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Coin_Tiamat_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Coin_Tiamat_01.png",
+        "unicode": "\uE148",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Coin_spinel",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Coin_spinel.png",
+        "unicode": "\uE13D",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Cubicle_Stat_Mosbear_02",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Cubicle_Stat_Mosbear_02.png",
+        "unicode": "\uE152",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Cubicle_Stat_Mosbear_03",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Cubicle_Stat_Mosbear_03.png",
+        "unicode": "\uE151",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Pandora_upgrade",
+        "src": "resources/chat-icons/Currencies/Icon_Item_Pandora_upgrade.png",
+        "unicode": "\uE154",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_58teasing_dragon",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_58teasing_dragon.png",
+        "unicode": "\uE13C",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_flowerbouquet_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_flowerbouquet_01.png",
+        "unicode": "\uE150",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_health_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_health_01.png",
+        "unicode": "\uE11F",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_idevent_s2",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_idevent_s2.png",
+        "unicode": "\uE130",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_pandora",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_pandora.png",
+        "unicode": "\uE153",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_witch_flower_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_witch_flower_01.png",
+        "unicode": "\uE139",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_coin_zinc_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_coin_zinc_01.png",
+        "unicode": "\uE120",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_goldbar_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_goldbar_01.png",
+        "unicode": "\uE14C",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_highdeva_equip_coin_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_highdeva_equip_coin_01.png",
+        "unicode": "\uE117",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_highdeva_goods_coin_01",
+        "src": "resources/chat-icons/Currencies/Icon_Item_highdeva_goods_coin_01.png",
+        "unicode": "\uE118",
+        "keywords": []
+      },
+      {
+        "name": "Icon_coin_IDSweep_03",
+        "src": "resources/chat-icons/Currencies/Icon_coin_IDSweep_03.png",
+        "unicode": "\uE168",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_Coin_Pinkhat_01",
+        "src": "resources/chat-icons/Currencies/Icon_item_Coin_Pinkhat_01.png",
+        "unicode": "\uE1B1",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_Event_2020_Coin_01",
+        "src": "resources/chat-icons/Currencies/Icon_item_Event_2020_Coin_01.png",
+        "unicode": "\uE181",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_badge11",
+        "src": "resources/chat-icons/Currencies/Icon_item_badge11.png",
+        "unicode": "\uE11A",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_coin15",
+        "src": "resources/chat-icons/Currencies/Icon_item_coin15.png",
+        "unicode": "\uE137",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_coin_labyrinth",
+        "src": "resources/chat-icons/Currencies/Icon_item_coin_labyrinth.png",
+        "unicode": "\uE182",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_coin_ldf4_01",
+        "src": "resources/chat-icons/Currencies/Icon_item_coin_ldf4_01.png",
+        "unicode": "\uE172",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_coin_pumpkin",
+        "src": "resources/chat-icons/Currencies/Icon_item_coin_pumpkin.png",
+        "unicode": "\uE198",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_highdeva_f6coin",
+        "src": "resources/chat-icons/Currencies/Icon_item_highdeva_f6coin.png",
+        "unicode": "\uE13E",
+        "keywords": []
+      },
+      {
+        "name": "Token_Named_02",
+        "src": "resources/chat-icons/Currencies/Token_Named_02.png",
+        "unicode": "\uE0E2",
+        "keywords": []
+      },
+      {
+        "name": "abyss_op_point",
+        "src": "resources/chat-icons/Currencies/abyss_op_point.png",
+        "unicode": "\uE0EF",
+        "keywords": []
+      },
+      {
+        "name": "abyss_point",
+        "src": "resources/chat-icons/Currencies/abyss_point.png",
+        "unicode": "\uE00A",
+        "keywords": []
+      },
+      {
+        "name": "coin11",
+        "src": "resources/chat-icons/Currencies/coin11.png",
+        "unicode": "\uE084",
+        "keywords": []
+      },
+      {
+        "name": "coin12",
+        "src": "resources/chat-icons/Currencies/coin12.png",
+        "unicode": "\uE085",
+        "keywords": []
+      },
+      {
+        "name": "coin_01",
+        "src": "resources/chat-icons/Currencies/coin_01.png",
+        "unicode": "\uE02B",
+        "keywords": []
+      },
+      {
+        "name": "coin_02",
+        "src": "resources/chat-icons/Currencies/coin_02.png",
+        "unicode": "\uE02C",
+        "keywords": []
+      },
+      {
+        "name": "coin_03",
+        "src": "resources/chat-icons/Currencies/coin_03.png",
+        "unicode": "\uE02D",
+        "keywords": []
+      },
+      {
+        "name": "coin_04",
+        "src": "resources/chat-icons/Currencies/coin_04.png",
+        "unicode": "\uE02E",
+        "keywords": []
+      },
+      {
+        "name": "coin_05",
+        "src": "resources/chat-icons/Currencies/coin_05.png",
+        "unicode": "\uE02F",
+        "keywords": []
+      },
+      {
+        "name": "coin_06",
+        "src": "resources/chat-icons/Currencies/coin_06.png",
+        "unicode": "\uE030",
+        "keywords": []
+      },
+      {
+        "name": "coin_07",
+        "src": "resources/chat-icons/Currencies/coin_07.png",
+        "unicode": "\uE062",
+        "keywords": []
+      },
+      {
+        "name": "coin_08",
+        "src": "resources/chat-icons/Currencies/coin_08.png",
+        "unicode": "\uE063",
+        "keywords": []
+      },
+      {
+        "name": "coin_09",
+        "src": "resources/chat-icons/Currencies/coin_09.png",
+        "unicode": "\uE06C",
+        "keywords": []
+      },
+      {
+        "name": "coin_10",
+        "src": "resources/chat-icons/Currencies/coin_10.png",
+        "unicode": "\uE06D",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond01",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond01.png",
+        "unicode": "\uE0C3",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond02",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond02.png",
+        "unicode": "\uE0C4",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond03",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond03.png",
+        "unicode": "\uE0C5",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond04",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond04.png",
+        "unicode": "\uE0C6",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond05",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond05.png",
+        "unicode": "\uE0C7",
+        "keywords": []
+      },
+      {
+        "name": "coin_CHN_diamond06",
+        "src": "resources/chat-icons/Currencies/coin_CHN_diamond06.png",
+        "unicode": "\uE0C8",
+        "keywords": []
+      },
+      {
+        "name": "coin_MythicHigh_01",
+        "src": "resources/chat-icons/Currencies/coin_MythicHigh_01.png",
+        "unicode": "\uE0D1",
+        "keywords": []
+      },
+      {
+        "name": "coin_MythicHigh_02",
+        "src": "resources/chat-icons/Currencies/coin_MythicHigh_02.png",
+        "unicode": "\uE0D2",
+        "keywords": []
+      },
+      {
+        "name": "coin_arena_lose",
+        "src": "resources/chat-icons/Currencies/coin_arena_lose.png",
+        "unicode": "\uE067",
+        "keywords": []
+      },
+      {
+        "name": "coin_cash_usa01",
+        "src": "resources/chat-icons/Currencies/coin_cash_usa01.png",
+        "unicode": "\uE0E1",
+        "keywords": []
+      },
+      {
+        "name": "coin_coin_fortress_01",
+        "src": "resources/chat-icons/Currencies/coin_coin_fortress_01.png",
+        "unicode": "\uE0AE",
+        "keywords": []
+      },
+      {
+        "name": "coin_coin_fortress_02",
+        "src": "resources/chat-icons/Currencies/coin_coin_fortress_02.png",
+        "unicode": "\uE0AF",
+        "keywords": []
+      },
+      {
+        "name": "coin_coin_fortress_03",
+        "src": "resources/chat-icons/Currencies/coin_coin_fortress_03.png",
+        "unicode": "\uE0B0",
+        "keywords": []
+      },
+      {
+        "name": "coin_crystal_01",
+        "src": "resources/chat-icons/Currencies/coin_crystal_01.png",
+        "unicode": "\uE0EA",
+        "keywords": []
+      },
+      {
+        "name": "coin_event_revolution_flag",
+        "src": "resources/chat-icons/Currencies/coin_event_revolution_flag.png",
+        "unicode": "\uE0D6",
+        "keywords": []
+      },
+      {
+        "name": "coin_greenhat_01",
+        "src": "resources/chat-icons/Currencies/coin_greenhat_01.png",
+        "unicode": "\uE0AC",
+        "keywords": []
+      },
+      {
+        "name": "coin_headquarters",
+        "src": "resources/chat-icons/Currencies/coin_headquarters.png",
+        "unicode": "\uE032",
+        "keywords": []
+      },
+      {
+        "name": "coin_heart_01",
+        "src": "resources/chat-icons/Currencies/coin_heart_01.png",
+        "unicode": "\uE046",
+        "keywords": []
+      },
+      {
+        "name": "coin_heart_02",
+        "src": "resources/chat-icons/Currencies/coin_heart_02.png",
+        "unicode": "\uE047",
+        "keywords": []
+      },
+      {
+        "name": "coin_heart_03",
+        "src": "resources/chat-icons/Currencies/coin_heart_03.png",
+        "unicode": "\uE048",
+        "keywords": []
+      },
+      {
+        "name": "coin_hunters",
+        "src": "resources/chat-icons/Currencies/coin_hunters.png",
+        "unicode": "\uE033",
+        "keywords": []
+      },
+      {
+        "name": "coin_instance",
+        "src": "resources/chat-icons/Currencies/coin_instance.png",
+        "unicode": "\uE12E",
+        "keywords": []
+      },
+      {
+        "name": "coin_leaf",
+        "src": "resources/chat-icons/Currencies/coin_leaf.png",
+        "unicode": "\uE068",
+        "keywords": []
+      },
+      {
+        "name": "coin_mentor",
+        "src": "resources/chat-icons/Currencies/coin_mentor.png",
+        "unicode": "\uE03E",
+        "keywords": []
+      },
+      {
+        "name": "coin_mhigh_01",
+        "src": "resources/chat-icons/Currencies/coin_mhigh_01.png",
+        "unicode": "\uE0D3",
+        "keywords": []
+      },
+      {
+        "name": "coin_mhigh_02",
+        "src": "resources/chat-icons/Currencies/coin_mhigh_02.png",
+        "unicode": "\uE0D4",
+        "keywords": []
+      },
+      {
+        "name": "coin_mobile_01",
+        "src": "resources/chat-icons/Currencies/coin_mobile_01.png",
+        "unicode": "\uE0DD",
+        "keywords": []
+      },
+      {
+        "name": "coin_mobile_02",
+        "src": "resources/chat-icons/Currencies/coin_mobile_02.png",
+        "unicode": "\uE0DC",
+        "keywords": []
+      },
+      {
+        "name": "coin_named_01",
+        "src": "resources/chat-icons/Currencies/coin_named_01.png",
+        "unicode": "\uE0AD",
+        "keywords": []
+      },
+      {
+        "name": "coin_protection",
+        "src": "resources/chat-icons/Currencies/coin_protection.png",
+        "unicode": "\uE031",
+        "keywords": []
+      },
+      {
+        "name": "coin_pve_a01",
+        "src": "resources/chat-icons/Currencies/coin_pve_a01.png",
+        "unicode": "\uE0A8",
+        "keywords": []
+      },
+      {
+        "name": "coin_pve_b01",
+        "src": "resources/chat-icons/Currencies/coin_pve_b01.png",
+        "unicode": "\uE0AA",
+        "keywords": []
+      },
+      {
+        "name": "coin_pvp_01",
+        "src": "resources/chat-icons/Currencies/coin_pvp_01.png",
+        "unicode": "\uE0A9",
+        "keywords": []
+      },
+      {
+        "name": "coin_return_01",
+        "src": "resources/chat-icons/Currencies/coin_return_01.png",
+        "unicode": "\uE0DF",
+        "keywords": []
+      },
+      {
+        "name": "coin_return_02",
+        "src": "resources/chat-icons/Currencies/coin_return_02.png",
+        "unicode": "\uE0E0",
+        "keywords": []
+      },
+      {
+        "name": "coin_return_03",
+        "src": "resources/chat-icons/Currencies/coin_return_03.png",
+        "unicode": "\uE0E9",
+        "keywords": []
+      },
+      {
+        "name": "coin_shulack",
+        "src": "resources/chat-icons/Currencies/coin_shulack.png",
+        "unicode": "\uE045",
+        "keywords": []
+      },
+      {
+        "name": "coin_silverlin_01",
+        "src": "resources/chat-icons/Currencies/coin_silverlin_01.png",
+        "unicode": "\uE0AB",
+        "keywords": []
+      },
+      {
+        "name": "coin_world_GOTCHA",
+        "src": "resources/chat-icons/Currencies/coin_world_GOTCHA.png",
+        "unicode": "\uE0DB",
+        "keywords": []
+      },
+      {
+        "name": "comeback_crystal",
+        "src": "resources/chat-icons/Currencies/comeback_crystal.png",
+        "unicode": "\uE09D",
+        "keywords": []
+      },
+      {
+        "name": "event_coin_01",
+        "src": "resources/chat-icons/Currencies/event_coin_01.png",
+        "unicode": "\uE044",
+        "keywords": []
+      },
+      {
+        "name": "event_coin_02",
+        "src": "resources/chat-icons/Currencies/event_coin_02.png",
+        "unicode": "\uE049",
+        "keywords": []
+      },
+      {
+        "name": "event_coin_03",
+        "src": "resources/chat-icons/Currencies/event_coin_03.png",
+        "unicode": "\uE0B7",
+        "keywords": []
+      },
+      {
+        "name": "event_coin_04",
+        "src": "resources/chat-icons/Currencies/event_coin_04.png",
+        "unicode": "\uE0B8",
+        "keywords": []
+      },
+      {
+        "name": "event_coin_05",
+        "src": "resources/chat-icons/Currencies/event_coin_05.png",
+        "unicode": "\uE0BB",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_coin_merchant",
+        "src": "resources/chat-icons/Currencies/funcnpc_coin_merchant.png",
+        "unicode": "\uE0D7",
+        "keywords": []
+      },
+      {
+        "name": "glory_point",
+        "src": "resources/chat-icons/Currencies/glory_point.png",
+        "unicode": "\uE0BA",
+        "keywords": []
+      },
+      {
+        "name": "icon_classic_event_coin_idpogusgame",
+        "src": "resources/chat-icons/Currencies/icon_classic_event_coin_idpogusgame.png",
+        "unicode": "\uE19B",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Coin16",
+        "src": "resources/chat-icons/Currencies/icon_item_Coin16.png",
+        "unicode": "\uE14E",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Event_Coin_10th_01",
+        "src": "resources/chat-icons/Currencies/icon_item_Event_Coin_10th_01.png",
+        "unicode": "\uE163",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Event_Coin_11th",
+        "src": "resources/chat-icons/Currencies/icon_item_Event_Coin_11th.png",
+        "unicode": "\uE173",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Event_Coin_12th",
+        "src": "resources/chat-icons/Currencies/icon_item_Event_Coin_12th.png",
+        "unicode": "\uE180",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Event_coin_winterpark",
+        "src": "resources/chat-icons/Currencies/icon_item_Event_coin_winterpark.png",
+        "unicode": "\uE184",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_battlefield_01",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_battlefield_01.png",
+        "unicode": "\uE199",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_battlefield_02",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_battlefield_02.png",
+        "unicode": "\uE19A",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_deva14th",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_deva14th.png",
+        "unicode": "\uE1AB",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_event_lovely_Flower01",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_event_lovely_Flower01.png",
+        "unicode": "\uE167",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_event_magical_Flower01",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_event_magical_Flower01.png",
+        "unicode": "\uE166",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_event_warranty",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_event_warranty.png",
+        "unicode": "\uE16E",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_gp_reward",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_gp_reward.png",
+        "unicode": "\uE185",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_idInfinity",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_idInfinity.png",
+        "unicode": "\uE14D",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_coin_ldf8_reward_01",
+        "src": "resources/chat-icons/Currencies/icon_item_coin_ldf8_reward_01.png",
+        "unicode": "\uE162",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_event_coin_WaterWorld_01",
+        "src": "resources/chat-icons/Currencies/icon_item_event_coin_WaterWorld_01.png",
+        "unicode": "\uE157",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_ranking_reward_coin_01",
+        "src": "resources/chat-icons/Currencies/icon_item_ranking_reward_coin_01.png",
+        "unicode": "\uE1A4",
+        "keywords": []
+      },
+      {
+        "name": "icon_return_token_02",
+        "src": "resources/chat-icons/Currencies/icon_return_token_02.png",
+        "unicode": "\uE16D",
+        "keywords": []
+      },
+      {
+        "name": "luna",
+        "src": "resources/chat-icons/Currencies/luna.png",
+        "unicode": "\uE10C",
+        "keywords": []
+      },
+      {
+        "name": "luna_key",
+        "src": "resources/chat-icons/Currencies/luna_key.png",
+        "unicode": "\uE10E",
+        "keywords": []
+      },
+      {
+        "name": "medal_01",
+        "src": "resources/chat-icons/Currencies/medal_01.png",
+        "unicode": "\uE023",
+        "keywords": []
+      },
+      {
+        "name": "medal_02",
+        "src": "resources/chat-icons/Currencies/medal_02.png",
+        "unicode": "\uE024",
+        "keywords": []
+      },
+      {
+        "name": "medal_03",
+        "src": "resources/chat-icons/Currencies/medal_03.png",
+        "unicode": "\uE02A",
+        "keywords": []
+      },
+      {
+        "name": "medal_04",
+        "src": "resources/chat-icons/Currencies/medal_04.png",
+        "unicode": "\uE060",
+        "keywords": []
+      },
+      {
+        "name": "medal_arena_01",
+        "src": "resources/chat-icons/Currencies/medal_arena_01.png",
+        "unicode": "\uE05D",
+        "keywords": []
+      },
+      {
+        "name": "medal_arena_pvp_01",
+        "src": "resources/chat-icons/Currencies/medal_arena_pvp_01.png",
+        "unicode": "\uE066",
+        "keywords": []
+      },
+      {
+        "name": "medal_cera_01",
+        "src": "resources/chat-icons/Currencies/medal_cera_01.png",
+        "unicode": "\uE0B1",
+        "keywords": []
+      },
+      {
+        "name": "mix_crystal_coin_01",
+        "src": "resources/chat-icons/Currencies/mix_crystal_coin_01.png",
+        "unicode": "\uE105",
+        "keywords": []
+      },
+      {
+        "name": "mix_crystal_coin_02",
+        "src": "resources/chat-icons/Currencies/mix_crystal_coin_02.png",
+        "unicode": "\uE106",
+        "keywords": []
+      },
+      {
+        "name": "mix_crystal_coin_03",
+        "src": "resources/chat-icons/Currencies/mix_crystal_coin_03.png",
+        "unicode": "\uE107",
+        "keywords": []
+      },
+      {
+        "name": "mix_crystal_coin_04",
+        "src": "resources/chat-icons/Currencies/mix_crystal_coin_04.png",
+        "unicode": "\uE108",
+        "keywords": []
+      },
+      {
+        "name": "money",
+        "src": "resources/chat-icons/Currencies/money.png",
+        "unicode": "\uE000",
+        "keywords": []
+      },
+      {
+        "name": "newbie_crystal",
+        "src": "resources/chat-icons/Currencies/newbie_crystal.png",
+        "unicode": "\uE09C",
+        "keywords": []
+      },
+      {
+        "name": "quna",
+        "src": "resources/chat-icons/Currencies/quna.png",
+        "unicode": "\uE14B",
+        "keywords": []
+      },
+      {
+        "name": "rvr_coin_01",
+        "src": "resources/chat-icons/Currencies/rvr_coin_01.png",
+        "unicode": "\uE0FE",
+        "keywords": []
+      },
+      {
+        "name": "stigma_coin_01",
+        "src": "resources/chat-icons/Currencies/stigma_coin_01.png",
+        "unicode": "\uE0BC",
+        "keywords": []
+      },
+      {
+        "name": "tiamat7",
+        "src": "resources/chat-icons/Currencies/tiamat7.png",
+        "unicode": "\uE08D",
+        "keywords": []
+      },
+      {
+        "name": "tiamat8",
+        "src": "resources/chat-icons/Currencies/tiamat8.png",
+        "unicode": "\uE08E",
+        "keywords": []
+      },
+      {
+        "name": "use_cp",
+        "src": "resources/chat-icons/Currencies/use_cp.png",
+        "unicode": "\uE0FC",
+        "keywords": []
+      },
+      {
+        "name": "use_cp_stone",
+        "src": "resources/chat-icons/Currencies/use_cp_stone.png",
+        "unicode": "\uE0FD",
+        "keywords": []
+      },
+      {
+        "name": "yearcoin_01",
+        "src": "resources/chat-icons/Currencies/yearcoin_01.png",
+        "unicode": "\uE12F",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Emblems",
+    "icons": [
+      {
+        "name": "Icon_tournament_emblem_01",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_01.png",
+        "unicode": "\uE122",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_02",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_02.png",
+        "unicode": "\uE123",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_03",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_03.png",
+        "unicode": "\uE124",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_04",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_04.png",
+        "unicode": "\uE125",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_bronze",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_bronze.png",
+        "unicode": "\uE12D",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_challenger01",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_challenger01.png",
+        "unicode": "\uE128",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_challenger02",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_challenger02.png",
+        "unicode": "\uE127",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_champion",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_champion.png",
+        "unicode": "\uE126",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_diamond",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_diamond.png",
+        "unicode": "\uE129",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_gold",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_gold.png",
+        "unicode": "\uE12B",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_platinum",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_platinum.png",
+        "unicode": "\uE12A",
+        "keywords": []
+      },
+      {
+        "name": "Icon_tournament_emblem_silver",
+        "src": "resources/chat-icons/Emblems/Icon_tournament_emblem_silver.png",
+        "unicode": "\uE12C",
+        "keywords": []
+      },
+      {
+        "name": "emblem_01",
+        "src": "resources/chat-icons/Emblems/emblem_01.png",
+        "unicode": "\uE06B",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_dark_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_dark_01.png",
+        "unicode": "\uE186",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_dark_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_dark_02.png",
+        "unicode": "\uE187",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_dark_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_dark_03.png",
+        "unicode": "\uE18E",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_light_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_light_01.png",
+        "unicode": "\uE188",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_light_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_light_02.png",
+        "unicode": "\uE189",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_light_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_light_03.png",
+        "unicode": "\uE18F",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_popoku_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_popoku_01.png",
+        "unicode": "\uE18A",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_emblem_yen_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_emblem_yen_01.png",
+        "unicode": "\uE18B",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_dark_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_dark_01.png",
+        "unicode": "\uE190",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_dark_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_dark_02.png",
+        "unicode": "\uE191",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_dark_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_dark_03.png",
+        "unicode": "\uE192",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_light_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_light_01.png",
+        "unicode": "\uE193",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_light_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_light_02.png",
+        "unicode": "\uE194",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_light_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_light_03.png",
+        "unicode": "\uE195",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_makori_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_makori_01.png",
+        "unicode": "\uE197",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season2_emblem_owllau_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season2_emblem_owllau_01.png",
+        "unicode": "\uE196",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_Rakuri_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_Rakuri_01.png",
+        "unicode": "\uE1A3",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_Shulack_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_Shulack_01.png",
+        "unicode": "\uE1A2",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_dark_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_dark_01.png",
+        "unicode": "\uE19C",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_dark_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_dark_02.png",
+        "unicode": "\uE19D",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_dark_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_dark_03.png",
+        "unicode": "\uE19E",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_light_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_light_01.png",
+        "unicode": "\uE19F",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_light_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_light_02.png",
+        "unicode": "\uE1A0",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season3_emblem_light_03",
+        "src": "resources/chat-icons/Emblems/icon_faction_season3_emblem_light_03.png",
+        "unicode": "\uE1A1",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season4_emblem_dark_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season4_emblem_dark_01.png",
+        "unicode": "\uE1A5",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season4_emblem_dark_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season4_emblem_dark_02.png",
+        "unicode": "\uE1A6",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season4_emblem_light_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season4_emblem_light_01.png",
+        "unicode": "\uE1A7",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season4_emblem_light_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season4_emblem_light_02.png",
+        "unicode": "\uE1A8",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season5_emblem_dark_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season5_emblem_dark_01.png",
+        "unicode": "\uE1AC",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season5_emblem_dark_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season5_emblem_dark_02.png",
+        "unicode": "\uE1AD",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season5_emblem_light_01",
+        "src": "resources/chat-icons/Emblems/icon_faction_season5_emblem_light_01.png",
+        "unicode": "\uE1AE",
+        "keywords": []
+      },
+      {
+        "name": "icon_faction_season5_emblem_light_02",
+        "src": "resources/chat-icons/Emblems/icon_faction_season5_emblem_light_02.png",
+        "unicode": "\uE1AF",
+        "keywords": []
+      },
+      {
+        "name": "team1",
+        "src": "resources/chat-icons/Emblems/team1.png",
+        "unicode": "\uE072",
+        "keywords": []
+      },
+      {
+        "name": "team10",
+        "src": "resources/chat-icons/Emblems/team10.png",
+        "unicode": "\uE077",
+        "keywords": []
+      },
+      {
+        "name": "team2",
+        "src": "resources/chat-icons/Emblems/team2.png",
+        "unicode": "\uE06F",
+        "keywords": []
+      },
+      {
+        "name": "team3",
+        "src": "resources/chat-icons/Emblems/team3.png",
+        "unicode": "\uE070",
+        "keywords": []
+      },
+      {
+        "name": "team4",
+        "src": "resources/chat-icons/Emblems/team4.png",
+        "unicode": "\uE071",
+        "keywords": []
+      },
+      {
+        "name": "team5",
+        "src": "resources/chat-icons/Emblems/team5.png",
+        "unicode": "\uE06E",
+        "keywords": []
+      },
+      {
+        "name": "team6",
+        "src": "resources/chat-icons/Emblems/team6.png",
+        "unicode": "\uE073",
+        "keywords": []
+      },
+      {
+        "name": "team7",
+        "src": "resources/chat-icons/Emblems/team7.png",
+        "unicode": "\uE074",
+        "keywords": []
+      },
+      {
+        "name": "team8",
+        "src": "resources/chat-icons/Emblems/team8.png",
+        "unicode": "\uE075",
+        "keywords": []
+      },
+      {
+        "name": "team9",
+        "src": "resources/chat-icons/Emblems/team9.png",
+        "unicode": "\uE076",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Emoticons",
+    "icons": [
+      {
+        "name": "emoticon_angry",
+        "src": "resources/chat-icons/Emoticons/emoticon_angry.png",
+        "unicode": "\uE07A",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_depressed",
+        "src": "resources/chat-icons/Emoticons/emoticon_depressed.png",
+        "unicode": "\uE07C",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_displeased",
+        "src": "resources/chat-icons/Emoticons/emoticon_displeased.png",
+        "unicode": "\uE07D",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_laugh",
+        "src": "resources/chat-icons/Emoticons/emoticon_laugh.png",
+        "unicode": "\uE081",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_sad",
+        "src": "resources/chat-icons/Emoticons/emoticon_sad.png",
+        "unicode": "\uE07F",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_shocked",
+        "src": "resources/chat-icons/Emoticons/emoticon_shocked.png",
+        "unicode": "\uE07E",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_shy",
+        "src": "resources/chat-icons/Emoticons/emoticon_shy.png",
+        "unicode": "\uE07B",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_smile",
+        "src": "resources/chat-icons/Emoticons/emoticon_smile.png",
+        "unicode": "\uE080",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_tease",
+        "src": "resources/chat-icons/Emoticons/emoticon_tease.png",
+        "unicode": "\uE083",
+        "keywords": []
+      },
+      {
+        "name": "emoticon_wink",
+        "src": "resources/chat-icons/Emoticons/emoticon_wink.png",
+        "unicode": "\uE082",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_choco_heart",
+        "src": "resources/chat-icons/Emoticons/icon_item_choco_heart.png",
+        "unicode": "\uE176",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Equipment",
+    "icons": [
+      {
+        "name": "tiamat1",
+        "src": "resources/chat-icons/Equipment/tiamat1.png",
+        "unicode": "\uE087",
+        "keywords": []
+      },
+      {
+        "name": "tiamat10",
+        "src": "resources/chat-icons/Equipment/tiamat10.png",
+        "unicode": "\uE090",
+        "keywords": []
+      },
+      {
+        "name": "tiamat11",
+        "src": "resources/chat-icons/Equipment/tiamat11.png",
+        "unicode": "\uE091",
+        "keywords": []
+      },
+      {
+        "name": "tiamat12",
+        "src": "resources/chat-icons/Equipment/tiamat12.png",
+        "unicode": "\uE092",
+        "keywords": []
+      },
+      {
+        "name": "tiamat13",
+        "src": "resources/chat-icons/Equipment/tiamat13.png",
+        "unicode": "\uE093",
+        "keywords": []
+      },
+      {
+        "name": "tiamat14",
+        "src": "resources/chat-icons/Equipment/tiamat14.png",
+        "unicode": "\uE094",
+        "keywords": []
+      },
+      {
+        "name": "tiamat15",
+        "src": "resources/chat-icons/Equipment/tiamat15.png",
+        "unicode": "\uE095",
+        "keywords": []
+      },
+      {
+        "name": "tiamat16",
+        "src": "resources/chat-icons/Equipment/tiamat16.png",
+        "unicode": "\uE096",
+        "keywords": []
+      },
+      {
+        "name": "tiamat17",
+        "src": "resources/chat-icons/Equipment/tiamat17.png",
+        "unicode": "\uE097",
+        "keywords": []
+      },
+      {
+        "name": "tiamat18",
+        "src": "resources/chat-icons/Equipment/tiamat18.png",
+        "unicode": "\uE098",
+        "keywords": []
+      },
+      {
+        "name": "tiamat2",
+        "src": "resources/chat-icons/Equipment/tiamat2.png",
+        "unicode": "\uE088",
+        "keywords": []
+      },
+      {
+        "name": "tiamat3",
+        "src": "resources/chat-icons/Equipment/tiamat3.png",
+        "unicode": "\uE089",
+        "keywords": []
+      },
+      {
+        "name": "tiamat4",
+        "src": "resources/chat-icons/Equipment/tiamat4.png",
+        "unicode": "\uE08A",
+        "keywords": []
+      },
+      {
+        "name": "tiamat5",
+        "src": "resources/chat-icons/Equipment/tiamat5.png",
+        "unicode": "\uE08B",
+        "keywords": []
+      },
+      {
+        "name": "tiamat6",
+        "src": "resources/chat-icons/Equipment/tiamat6.png",
+        "unicode": "\uE08C",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Items",
+    "icons": [
+      {
+        "name": "Icon_Item_2stenchant_01",
+        "src": "resources/chat-icons/Items/Icon_Item_2stenchant_01.png",
+        "unicode": "\uE11D",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_2stenchant_stone_C01",
+        "src": "resources/chat-icons/Items/Icon_Item_2stenchant_stone_C01.png",
+        "unicode": "\uE140",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_2stenchant_water_C01",
+        "src": "resources/chat-icons/Items/Icon_Item_2stenchant_water_C01.png",
+        "unicode": "\uE13F",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Book03",
+        "src": "resources/chat-icons/Items/Icon_Item_Book03.png",
+        "unicode": "\uE156",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Bottle06",
+        "src": "resources/chat-icons/Items/Icon_Item_Bottle06.png",
+        "unicode": "\uE17A",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Dish02",
+        "src": "resources/chat-icons/Items/Icon_Item_Dish02.png",
+        "unicode": "\uE171",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Holywater02",
+        "src": "resources/chat-icons/Items/Icon_Item_Holywater02.png",
+        "unicode": "\uE177",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Holywater03",
+        "src": "resources/chat-icons/Items/Icon_Item_Holywater03.png",
+        "unicode": "\uE178",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Holywater04",
+        "src": "resources/chat-icons/Items/Icon_Item_Holywater04.png",
+        "unicode": "\uE179",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Horn02",
+        "src": "resources/chat-icons/Items/Icon_Item_Horn02.png",
+        "unicode": "\uE165",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Scroll18F",
+        "src": "resources/chat-icons/Items/Icon_Item_Scroll18F.png",
+        "unicode": "\uE174",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_absoluteexp_recovery_02",
+        "src": "resources/chat-icons/Items/Icon_Item_absoluteexp_recovery_02.png",
+        "unicode": "\uE121",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_brick01_01",
+        "src": "resources/chat-icons/Items/Icon_Item_brick01_01.png",
+        "unicode": "\uE147",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_estima_enchant_01",
+        "src": "resources/chat-icons/Items/Icon_Item_estima_enchant_01.png",
+        "unicode": "\uE17B",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_fruit_05",
+        "src": "resources/chat-icons/Items/Icon_Item_fruit_05.png",
+        "unicode": "\uE169",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_fruit_06",
+        "src": "resources/chat-icons/Items/Icon_Item_fruit_06.png",
+        "unicode": "\uE16A",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_mix_crystal_05",
+        "src": "resources/chat-icons/Items/Icon_Item_mix_crystal_05.png",
+        "unicode": "\uE111",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_mix_crystal_06",
+        "src": "resources/chat-icons/Items/Icon_Item_mix_crystal_06.png",
+        "unicode": "\uE10F",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_mix_crystal_07",
+        "src": "resources/chat-icons/Items/Icon_Item_mix_crystal_07.png",
+        "unicode": "\uE110",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_paper_crane_01",
+        "src": "resources/chat-icons/Items/Icon_Item_paper_crane_01.png",
+        "unicode": "\uE116",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_symbol_of_eternity_01",
+        "src": "resources/chat-icons/Items/Icon_Item_symbol_of_eternity_01.png",
+        "unicode": "\uE16F",
+        "keywords": []
+      },
+      {
+        "name": "Icon_absoluteexp_recovery_big",
+        "src": "resources/chat-icons/Items/Icon_absoluteexp_recovery_big.png",
+        "unicode": "\uE11B",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_enchant_exceed_critical_01",
+        "src": "resources/chat-icons/Items/Icon_item_enchant_exceed_critical_01.png",
+        "unicode": "\uE149",
+        "keywords": []
+      },
+      {
+        "name": "cookie01",
+        "src": "resources/chat-icons/Items/cookie01.png",
+        "unicode": "\uE114",
+        "keywords": []
+      },
+      {
+        "name": "coupon_jewel",
+        "src": "resources/chat-icons/Items/coupon_jewel.png",
+        "unicode": "\uE025",
+        "keywords": []
+      },
+      {
+        "name": "drana_prism",
+        "src": "resources/chat-icons/Items/drana_prism.png",
+        "unicode": "\uE061",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_enchant_pve_F01",
+        "src": "resources/chat-icons/Items/icon_item_enchant_pve_F01.png",
+        "unicode": "\uE175",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_matter_enchant_a01",
+        "src": "resources/chat-icons/Items/icon_item_matter_enchant_a01.png",
+        "unicode": "\uE161",
+        "keywords": []
+      },
+      {
+        "name": "icon_world_event_Soft_Icecream",
+        "src": "resources/chat-icons/Items/icon_world_event_Soft_Icecream.png",
+        "unicode": "\uE17E",
+        "keywords": []
+      },
+      {
+        "name": "letter_01",
+        "src": "resources/chat-icons/Items/letter_01.png",
+        "unicode": "\uE0B2",
+        "keywords": []
+      },
+      {
+        "name": "lips01",
+        "src": "resources/chat-icons/Items/lips01.png",
+        "unicode": "\uE113",
+        "keywords": []
+      },
+      {
+        "name": "tiamat9",
+        "src": "resources/chat-icons/Items/tiamat9.png",
+        "unicode": "\uE08F",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Map",
+    "icons": [
+      {
+        "name": "Icon_airship",
+        "src": "resources/chat-icons/Map/Icon_airship.png",
+        "unicode": "\uE11E",
+        "keywords": []
+      },
+      {
+        "name": "Icon_shugoship",
+        "src": "resources/chat-icons/Map/Icon_shugoship.png",
+        "unicode": "\uE119",
+        "keywords": []
+      },
+      {
+        "name": "Icon_target_fortress",
+        "src": "resources/chat-icons/Map/Icon_target_fortress.png",
+        "unicode": "\uE13A",
+        "keywords": []
+      },
+      {
+        "name": "SvS_startpoint",
+        "src": "resources/chat-icons/Map/SvS_startpoint.png",
+        "unicode": "\uE0D0",
+        "keywords": []
+      },
+      {
+        "name": "SvS_tankbase",
+        "src": "resources/chat-icons/Map/SvS_tankbase.png",
+        "unicode": "\uE0CF",
+        "keywords": []
+      },
+      {
+        "name": "altar_of_vow",
+        "src": "resources/chat-icons/Map/altar_of_vow.png",
+        "unicode": "\uE18D",
+        "keywords": []
+      },
+      {
+        "name": "artifact",
+        "src": "resources/chat-icons/Map/artifact.png",
+        "unicode": "\uE04F",
+        "keywords": []
+      },
+      {
+        "name": "boss_raid_dark",
+        "src": "resources/chat-icons/Map/boss_raid_dark.png",
+        "unicode": "\uE04B",
+        "keywords": []
+      },
+      {
+        "name": "boss_raid_light",
+        "src": "resources/chat-icons/Map/boss_raid_light.png",
+        "unicode": "\uE04A",
+        "keywords": []
+      },
+      {
+        "name": "carrier",
+        "src": "resources/chat-icons/Map/carrier.png",
+        "unicode": "\uE050",
+        "keywords": []
+      },
+      {
+        "name": "eternity_tower",
+        "src": "resources/chat-icons/Map/eternity_tower.png",
+        "unicode": "\uE109",
+        "keywords": []
+      },
+      {
+        "name": "fortress",
+        "src": "resources/chat-icons/Map/fortress.png",
+        "unicode": "\uE04D",
+        "keywords": []
+      },
+      {
+        "name": "fortress_pvp",
+        "src": "resources/chat-icons/Map/fortress_pvp.png",
+        "unicode": "\uE04E",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_bindstone",
+        "src": "resources/chat-icons/Map/funcnpc_bindstone.png",
+        "unicode": "\uE059",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_merchant",
+        "src": "resources/chat-icons/Map/funcnpc_merchant.png",
+        "unicode": "\uE054",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_postbox",
+        "src": "resources/chat-icons/Map/funcnpc_postbox.png",
+        "unicode": "\uE058",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_teleport",
+        "src": "resources/chat-icons/Map/funcnpc_teleport.png",
+        "unicode": "\uE057",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_town_challenge_task",
+        "src": "resources/chat-icons/Map/funcnpc_town_challenge_task.png",
+        "unicode": "\uE086",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_vendor",
+        "src": "resources/chat-icons/Map/funcnpc_vendor.png",
+        "unicode": "\uE055",
+        "keywords": []
+      },
+      {
+        "name": "funcnpc_warehouse",
+        "src": "resources/chat-icons/Map/funcnpc_warehouse.png",
+        "unicode": "\uE056",
+        "keywords": []
+      },
+      {
+        "name": "guild_dominion",
+        "src": "resources/chat-icons/Map/guild_dominion.png",
+        "unicode": "\uE0E3",
+        "keywords": []
+      },
+      {
+        "name": "hotspot",
+        "src": "resources/chat-icons/Map/hotspot.png",
+        "unicode": "\uE0D8",
+        "keywords": []
+      },
+      {
+        "name": "house_auction",
+        "src": "resources/chat-icons/Map/house_auction.png",
+        "unicode": "\uE06A",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_ins",
+        "src": "resources/chat-icons/Map/icon_item_guide_ins.png",
+        "unicode": "\uE15C",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_make",
+        "src": "resources/chat-icons/Map/icon_item_guide_make.png",
+        "unicode": "\uE15A",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_monster",
+        "src": "resources/chat-icons/Map/icon_item_guide_monster.png",
+        "unicode": "\uE159",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_quest",
+        "src": "resources/chat-icons/Map/icon_item_guide_quest.png",
+        "unicode": "\uE158",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_shop",
+        "src": "resources/chat-icons/Map/icon_item_guide_shop.png",
+        "unicode": "\uE15B",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_guide_upgrade",
+        "src": "resources/chat-icons/Map/icon_item_guide_upgrade.png",
+        "unicode": "\uE15D",
+        "keywords": []
+      },
+      {
+        "name": "icon_world_event_pure_icecrystal",
+        "src": "resources/chat-icons/Map/icon_world_event_pure_icecrystal.png",
+        "unicode": "\uE1B2",
+        "keywords": []
+      },
+      {
+        "name": "id_all_C_60a",
+        "src": "resources/chat-icons/Map/id_all_C_60a.png",
+        "unicode": "\uE0B3",
+        "keywords": []
+      },
+      {
+        "name": "id_all_L_60a",
+        "src": "resources/chat-icons/Map/id_all_L_60a.png",
+        "unicode": "\uE0B5",
+        "keywords": []
+      },
+      {
+        "name": "id_all_R_60a",
+        "src": "resources/chat-icons/Map/id_all_R_60a.png",
+        "unicode": "\uE0B4",
+        "keywords": []
+      },
+      {
+        "name": "indun",
+        "src": "resources/chat-icons/Map/indun.png",
+        "unicode": "\uE05C",
+        "keywords": []
+      },
+      {
+        "name": "legionraid",
+        "src": "resources/chat-icons/Map/legionraid.png",
+        "unicode": "\uE0DA",
+        "keywords": []
+      },
+      {
+        "name": "my_house",
+        "src": "resources/chat-icons/Map/my_house.png",
+        "unicode": "\uE069",
+        "keywords": []
+      },
+      {
+        "name": "nonpvp_area",
+        "src": "resources/chat-icons/Map/nonpvp_area.png",
+        "unicode": "\uE099",
+        "keywords": []
+      },
+      {
+        "name": "portal",
+        "src": "resources/chat-icons/Map/portal.png",
+        "unicode": "\uE04C",
+        "keywords": []
+      },
+      {
+        "name": "portal_invade",
+        "src": "resources/chat-icons/Map/portal_invade.png",
+        "unicode": "\uE079",
+        "keywords": []
+      },
+      {
+        "name": "pvp_area",
+        "src": "resources/chat-icons/Map/pvp_area.png",
+        "unicode": "\uE09E",
+        "keywords": []
+      },
+      {
+        "name": "settlement",
+        "src": "resources/chat-icons/Map/settlement.png",
+        "unicode": "\uE0A7",
+        "keywords": []
+      },
+      {
+        "name": "stigma_master",
+        "src": "resources/chat-icons/Map/stigma_master.png",
+        "unicode": "\uE0E4",
+        "keywords": []
+      },
+      {
+        "name": "tower",
+        "src": "resources/chat-icons/Map/tower.png",
+        "unicode": "\uE064",
+        "keywords": []
+      },
+      {
+        "name": "underpass",
+        "src": "resources/chat-icons/Map/underpass.png",
+        "unicode": "\uE065",
+        "keywords": []
+      },
+      {
+        "name": "worldraid",
+        "src": "resources/chat-icons/Map/worldraid.png",
+        "unicode": "\uE0D9",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Materials",
+    "icons": [
+      {
+        "name": "Icon_Item_material_55abyss_acc",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_55abyss_acc.png",
+        "unicode": "\uE143",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_material_55abyss_armor",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_55abyss_armor.png",
+        "unicode": "\uE142",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_material_55abyss_weapon",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_55abyss_weapon.png",
+        "unicode": "\uE141",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_material_80abyss_acc",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_80abyss_acc.png",
+        "unicode": "\uE146",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_material_80abyss_armor",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_80abyss_armor.png",
+        "unicode": "\uE145",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_material_80abyss_weapon",
+        "src": "resources/chat-icons/Materials/Icon_Item_material_80abyss_weapon.png",
+        "unicode": "\uE144",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_pve_material_atom_a01",
+        "src": "resources/chat-icons/Materials/Icon_Item_pve_material_atom_a01.png",
+        "unicode": "\uE1B0",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_pvp_material_atom_a01",
+        "src": "resources/chat-icons/Materials/Icon_Item_pvp_material_atom_a01.png",
+        "unicode": "\uE155",
+        "keywords": []
+      },
+      {
+        "name": "coin_material_abyss_01",
+        "src": "resources/chat-icons/Materials/coin_material_abyss_01.png",
+        "unicode": "\uE0D5",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_material_a01",
+        "src": "resources/chat-icons/Materials/icon_item_material_a01.png",
+        "unicode": "\uE15E",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_material_f01",
+        "src": "resources/chat-icons/Materials/icon_item_material_f01.png",
+        "unicode": "\uE160",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_material_ldf7_base",
+        "src": "resources/chat-icons/Materials/icon_item_material_ldf7_base.png",
+        "unicode": "\uE14F",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_material_r01",
+        "src": "resources/chat-icons/Materials/icon_item_material_r01.png",
+        "unicode": "\uE15F",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_material_star",
+        "src": "resources/chat-icons/Materials/icon_item_material_star.png",
+        "unicode": "\uE17F",
+        "keywords": []
+      },
+      {
+        "name": "material_80abyss_common",
+        "src": "resources/chat-icons/Materials/material_80abyss_common.png",
+        "unicode": "\uE14A",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Party",
+    "icons": [
+      {
+        "name": "Icon_Item_sack_doguri_01",
+        "src": "resources/chat-icons/Party/Icon_Item_sack_doguri_01.png",
+        "unicode": "\uE1AA",
+        "keywords": []
+      },
+      {
+        "name": "force",
+        "src": "resources/chat-icons/Party/force.png",
+        "unicode": "\uE05B",
+        "keywords": []
+      },
+      {
+        "name": "group_1",
+        "src": "resources/chat-icons/Party/group_1.png",
+        "unicode": "\uE011",
+        "keywords": []
+      },
+      {
+        "name": "group_2",
+        "src": "resources/chat-icons/Party/group_2.png",
+        "unicode": "\uE012",
+        "keywords": []
+      },
+      {
+        "name": "group_3",
+        "src": "resources/chat-icons/Party/group_3.png",
+        "unicode": "\uE013",
+        "keywords": []
+      },
+      {
+        "name": "group_4",
+        "src": "resources/chat-icons/Party/group_4.png",
+        "unicode": "\uE014",
+        "keywords": []
+      },
+      {
+        "name": "party",
+        "src": "resources/chat-icons/Party/party.png",
+        "unicode": "\uE05A",
+        "keywords": []
+      },
+      {
+        "name": "sign_1",
+        "src": "resources/chat-icons/Party/sign_1.png",
+        "unicode": "\uE015",
+        "keywords": []
+      },
+      {
+        "name": "sign_10",
+        "src": "resources/chat-icons/Party/sign_10.png",
+        "unicode": "\uE01E",
+        "keywords": []
+      },
+      {
+        "name": "sign_11",
+        "src": "resources/chat-icons/Party/sign_11.png",
+        "unicode": "\uE01F",
+        "keywords": []
+      },
+      {
+        "name": "sign_12",
+        "src": "resources/chat-icons/Party/sign_12.png",
+        "unicode": "\uE020",
+        "keywords": []
+      },
+      {
+        "name": "sign_13",
+        "src": "resources/chat-icons/Party/sign_13.png",
+        "unicode": "\uE021",
+        "keywords": []
+      },
+      {
+        "name": "sign_14",
+        "src": "resources/chat-icons/Party/sign_14.png",
+        "unicode": "\uE022",
+        "keywords": []
+      },
+      {
+        "name": "sign_15",
+        "src": "resources/chat-icons/Party/sign_15.png",
+        "unicode": "\uE019",
+        "keywords": []
+      },
+      {
+        "name": "sign_16",
+        "src": "resources/chat-icons/Party/sign_16.png",
+        "unicode": "\uE01A",
+        "keywords": []
+      },
+      {
+        "name": "sign_2",
+        "src": "resources/chat-icons/Party/sign_2.png",
+        "unicode": "\uE016",
+        "keywords": []
+      },
+      {
+        "name": "sign_3",
+        "src": "resources/chat-icons/Party/sign_3.png",
+        "unicode": "\uE017",
+        "keywords": []
+      },
+      {
+        "name": "sign_4",
+        "src": "resources/chat-icons/Party/sign_4.png",
+        "unicode": "\uE018",
+        "keywords": []
+      },
+      {
+        "name": "sign_5",
+        "src": "resources/chat-icons/Party/sign_5.png",
+        "unicode": "\uE03C",
+        "keywords": []
+      },
+      {
+        "name": "sign_6",
+        "src": "resources/chat-icons/Party/sign_6.png",
+        "unicode": "\uE03D",
+        "keywords": []
+      },
+      {
+        "name": "sign_7",
+        "src": "resources/chat-icons/Party/sign_7.png",
+        "unicode": "\uE01B",
+        "keywords": []
+      },
+      {
+        "name": "sign_8",
+        "src": "resources/chat-icons/Party/sign_8.png",
+        "unicode": "\uE01C",
+        "keywords": []
+      },
+      {
+        "name": "sign_9",
+        "src": "resources/chat-icons/Party/sign_9.png",
+        "unicode": "\uE01D",
+        "keywords": []
+      },
+      {
+        "name": "sign_doguri",
+        "src": "resources/chat-icons/Party/sign_doguri.png",
+        "unicode": "\uE1A9",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Quests",
+    "icons": [
+      {
+        "name": "Icon_quest_rank01",
+        "src": "resources/chat-icons/Quests/Icon_quest_rank01.png",
+        "unicode": "\uE11C",
+        "keywords": []
+      },
+      {
+        "name": "event_finished",
+        "src": "resources/chat-icons/Quests/event_finished.png",
+        "unicode": "\uE03B",
+        "keywords": []
+      },
+      {
+        "name": "event_givable",
+        "src": "resources/chat-icons/Quests/event_givable.png",
+        "unicode": "\uE039",
+        "keywords": []
+      },
+      {
+        "name": "event_working",
+        "src": "resources/chat-icons/Quests/event_working.png",
+        "unicode": "\uE03A",
+        "keywords": []
+      },
+      {
+        "name": "guide_mission_finished",
+        "src": "resources/chat-icons/Quests/guide_mission_finished.png",
+        "unicode": "\uE16C",
+        "keywords": []
+      },
+      {
+        "name": "guide_mission_working",
+        "src": "resources/chat-icons/Quests/guide_mission_working.png",
+        "unicode": "\uE16B",
+        "keywords": []
+      },
+      {
+        "name": "important_finished",
+        "src": "resources/chat-icons/Quests/important_finished.png",
+        "unicode": "\uE041",
+        "keywords": []
+      },
+      {
+        "name": "important_givable",
+        "src": "resources/chat-icons/Quests/important_givable.png",
+        "unicode": "\uE03F",
+        "keywords": []
+      },
+      {
+        "name": "important_working",
+        "src": "resources/chat-icons/Quests/important_working.png",
+        "unicode": "\uE040",
+        "keywords": []
+      },
+      {
+        "name": "legion_finished",
+        "src": "resources/chat-icons/Quests/legion_finished.png",
+        "unicode": "\uE0A1",
+        "keywords": []
+      },
+      {
+        "name": "legion_givable",
+        "src": "resources/chat-icons/Quests/legion_givable.png",
+        "unicode": "\uE09F",
+        "keywords": []
+      },
+      {
+        "name": "legion_working",
+        "src": "resources/chat-icons/Quests/legion_working.png",
+        "unicode": "\uE0A0",
+        "keywords": []
+      },
+      {
+        "name": "mission_finished",
+        "src": "resources/chat-icons/Quests/mission_finished.png",
+        "unicode": "\uE038",
+        "keywords": []
+      },
+      {
+        "name": "mission_working",
+        "src": "resources/chat-icons/Quests/mission_working.png",
+        "unicode": "\uE037",
+        "keywords": []
+      },
+      {
+        "name": "quest_finished",
+        "src": "resources/chat-icons/Quests/quest_finished.png",
+        "unicode": "\uE036",
+        "keywords": []
+      },
+      {
+        "name": "quest_givable",
+        "src": "resources/chat-icons/Quests/quest_givable.png",
+        "unicode": "\uE034",
+        "keywords": []
+      },
+      {
+        "name": "quest_working",
+        "src": "resources/chat-icons/Quests/quest_working.png",
+        "unicode": "\uE035",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "Symbols",
+    "icons": [
+      {
+        "name": "Icon_Item_IDTransform_01",
+        "src": "resources/chat-icons/Symbols/Icon_Item_IDTransform_01.png",
+        "unicode": "\uE115",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Leader_crown",
+        "src": "resources/chat-icons/Symbols/Icon_Item_Leader_crown.png",
+        "unicode": "\uE13B",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Raid_Carrier",
+        "src": "resources/chat-icons/Symbols/Icon_Item_Raid_Carrier.png",
+        "unicode": "\uE132",
+        "keywords": []
+      },
+      {
+        "name": "Icon_Item_Raid_LF6",
+        "src": "resources/chat-icons/Symbols/Icon_Item_Raid_LF6.png",
+        "unicode": "\uE133",
+        "keywords": []
+      },
+      {
+        "name": "Icon_item_gab1_reward",
+        "src": "resources/chat-icons/Symbols/Icon_item_gab1_reward.png",
+        "unicode": "\uE183",
+        "keywords": []
+      },
+      {
+        "name": "Indun_event",
+        "src": "resources/chat-icons/Symbols/Indun_event.png",
+        "unicode": "\uE138",
+        "keywords": []
+      },
+      {
+        "name": "SvS_defence",
+        "src": "resources/chat-icons/Symbols/SvS_defence.png",
+        "unicode": "\uE0CD",
+        "keywords": []
+      },
+      {
+        "name": "SvS_mygroup",
+        "src": "resources/chat-icons/Symbols/SvS_mygroup.png",
+        "unicode": "\uE0CB",
+        "keywords": []
+      },
+      {
+        "name": "SvS_mygroup01",
+        "src": "resources/chat-icons/Symbols/SvS_mygroup01.png",
+        "unicode": "\uE0CE",
+        "keywords": []
+      },
+      {
+        "name": "SvS_offence",
+        "src": "resources/chat-icons/Symbols/SvS_offence.png",
+        "unicode": "\uE0CC",
+        "keywords": []
+      },
+      {
+        "name": "abyss_op_dark",
+        "src": "resources/chat-icons/Symbols/abyss_op_dark.png",
+        "unicode": "\uE0EE",
+        "keywords": []
+      },
+      {
+        "name": "abyss_op_light",
+        "src": "resources/chat-icons/Symbols/abyss_op_light.png",
+        "unicode": "\uE0ED",
+        "keywords": []
+      },
+      {
+        "name": "alarm",
+        "src": "resources/chat-icons/Symbols/alarm.png",
+        "unicode": "\uE027",
+        "keywords": []
+      },
+      {
+        "name": "blank",
+        "src": "resources/chat-icons/Symbols/blank.png",
+        "unicode": "\uE134",
+        "keywords": []
+      },
+      {
+        "name": "cant_attack",
+        "src": "resources/chat-icons/Symbols/cant_attack.png",
+        "unicode": "\uE05E",
+        "keywords": []
+      },
+      {
+        "name": "collection_attr_cheak",
+        "src": "resources/chat-icons/Symbols/collection_attr_cheak.png",
+        "unicode": "\uE17C",
+        "keywords": []
+      },
+      {
+        "name": "comeback",
+        "src": "resources/chat-icons/Symbols/comeback.png",
+        "unicode": "\uE09B",
+        "keywords": []
+      },
+      {
+        "name": "comp_cant",
+        "src": "resources/chat-icons/Symbols/comp_cant.png",
+        "unicode": "\uE0A4",
+        "keywords": []
+      },
+      {
+        "name": "comp_greater",
+        "src": "resources/chat-icons/Symbols/comp_greater.png",
+        "unicode": "\uE0A3",
+        "keywords": []
+      },
+      {
+        "name": "comp_less",
+        "src": "resources/chat-icons/Symbols/comp_less.png",
+        "unicode": "\uE0A2",
+        "keywords": []
+      },
+      {
+        "name": "comp_same",
+        "src": "resources/chat-icons/Symbols/comp_same.png",
+        "unicode": "\uE0A5",
+        "keywords": []
+      },
+      {
+        "name": "condition_npc",
+        "src": "resources/chat-icons/Symbols/condition_npc.png",
+        "unicode": "\uE0B9",
+        "keywords": []
+      },
+      {
+        "name": "dark",
+        "src": "resources/chat-icons/Symbols/dark.png",
+        "unicode": "\uE053",
+        "keywords": []
+      },
+      {
+        "name": "detail",
+        "src": "resources/chat-icons/Symbols/detail.png",
+        "unicode": "\uE0A6",
+        "keywords": []
+      },
+      {
+        "name": "devanion_property_master",
+        "src": "resources/chat-icons/Symbols/devanion_property_master.png",
+        "unicode": "\uE18C",
+        "keywords": []
+      },
+      {
+        "name": "dr_trade_60a",
+        "src": "resources/chat-icons/Symbols/dr_trade_60a.png",
+        "unicode": "\uE0B6",
+        "keywords": []
+      },
+      {
+        "name": "dragon",
+        "src": "resources/chat-icons/Symbols/dragon.png",
+        "unicode": "\uE051",
+        "keywords": []
+      },
+      {
+        "name": "equipment",
+        "src": "resources/chat-icons/Symbols/equipment.png",
+        "unicode": "\uE05F",
+        "keywords": []
+      },
+      {
+        "name": "flag_buy_each",
+        "src": "resources/chat-icons/Symbols/flag_buy_each.png",
+        "unicode": "\uE0DE",
+        "keywords": []
+      },
+      {
+        "name": "high",
+        "src": "resources/chat-icons/Symbols/high.png",
+        "unicode": "\uE003",
+        "keywords": []
+      },
+      {
+        "name": "higher",
+        "src": "resources/chat-icons/Symbols/higher.png",
+        "unicode": "\uE001",
+        "keywords": []
+      },
+      {
+        "name": "icon_item_Abysss_Position",
+        "src": "resources/chat-icons/Symbols/icon_item_Abysss_Position.png",
+        "unicode": "\uE164",
+        "keywords": []
+      },
+      {
+        "name": "indun_grade_empty",
+        "src": "resources/chat-icons/Symbols/indun_grade_empty.png",
+        "unicode": "\uE0FA",
+        "keywords": []
+      },
+      {
+        "name": "indun_grade_hard",
+        "src": "resources/chat-icons/Symbols/indun_grade_hard.png",
+        "unicode": "\uE0F8",
+        "keywords": []
+      },
+      {
+        "name": "indun_grade_normal",
+        "src": "resources/chat-icons/Symbols/indun_grade_normal.png",
+        "unicode": "\uE0F9",
+        "keywords": []
+      },
+      {
+        "name": "indun_grade_very_hard",
+        "src": "resources/chat-icons/Symbols/indun_grade_very_hard.png",
+        "unicode": "\uE0FB",
+        "keywords": []
+      },
+      {
+        "name": "kill_point",
+        "src": "resources/chat-icons/Symbols/kill_point.png",
+        "unicode": "\uE00B",
+        "keywords": []
+      },
+      {
+        "name": "light",
+        "src": "resources/chat-icons/Symbols/light.png",
+        "unicode": "\uE052",
+        "keywords": []
+      },
+      {
+        "name": "low",
+        "src": "resources/chat-icons/Symbols/low.png",
+        "unicode": "\uE004",
+        "keywords": []
+      },
+      {
+        "name": "lower",
+        "src": "resources/chat-icons/Symbols/lower.png",
+        "unicode": "\uE002",
+        "keywords": []
+      },
+      {
+        "name": "mercenary_attack",
+        "src": "resources/chat-icons/Symbols/mercenary_attack.png",
+        "unicode": "\uE029",
+        "keywords": []
+      },
+      {
+        "name": "mercenary_move",
+        "src": "resources/chat-icons/Symbols/mercenary_move.png",
+        "unicode": "\uE028",
+        "keywords": []
+      },
+      {
+        "name": "mercenary_rest",
+        "src": "resources/chat-icons/Symbols/mercenary_rest.png",
+        "unicode": "\uE078",
+        "keywords": []
+      },
+      {
+        "name": "multi_recipe_01",
+        "src": "resources/chat-icons/Symbols/multi_recipe_01.png",
+        "unicode": "\uE0BE",
+        "keywords": []
+      },
+      {
+        "name": "multi_recipe_02",
+        "src": "resources/chat-icons/Symbols/multi_recipe_02.png",
+        "unicode": "\uE0BF",
+        "keywords": []
+      },
+      {
+        "name": "multi_recipe_03",
+        "src": "resources/chat-icons/Symbols/multi_recipe_03.png",
+        "unicode": "\uE0C0",
+        "keywords": []
+      },
+      {
+        "name": "multi_recipe_04",
+        "src": "resources/chat-icons/Symbols/multi_recipe_04.png",
+        "unicode": "\uE0C1",
+        "keywords": []
+      },
+      {
+        "name": "multi_recipe_05",
+        "src": "resources/chat-icons/Symbols/multi_recipe_05.png",
+        "unicode": "\uE0C2",
+        "keywords": []
+      },
+      {
+        "name": "newbie",
+        "src": "resources/chat-icons/Symbols/newbie.png",
+        "unicode": "\uE09A",
+        "keywords": []
+      },
+      {
+        "name": "pet_attack",
+        "src": "resources/chat-icons/Symbols/pet_attack.png",
+        "unicode": "\uE00D",
+        "keywords": []
+      },
+      {
+        "name": "pet_move",
+        "src": "resources/chat-icons/Symbols/pet_move.png",
+        "unicode": "\uE00E",
+        "keywords": []
+      },
+      {
+        "name": "pet_rest",
+        "src": "resources/chat-icons/Symbols/pet_rest.png",
+        "unicode": "\uE00F",
+        "keywords": []
+      },
+      {
+        "name": "pet_unsummon",
+        "src": "resources/chat-icons/Symbols/pet_unsummon.png",
+        "unicode": "\uE010",
+        "keywords": []
+      },
+      {
+        "name": "rolltext_megaphone_chat",
+        "src": "resources/chat-icons/Symbols/rolltext_megaphone_chat.png",
+        "unicode": "\uE17D",
+        "keywords": []
+      },
+      {
+        "name": "same",
+        "src": "resources/chat-icons/Symbols/same.png",
+        "unicode": "\uE00C",
+        "keywords": []
+      },
+      {
+        "name": "same_green",
+        "src": "resources/chat-icons/Symbols/same_green.png",
+        "unicode": "\uE112",
+        "keywords": []
+      },
+      {
+        "name": "target_left",
+        "src": "resources/chat-icons/Symbols/target_left.png",
+        "unicode": "\uE006",
+        "keywords": []
+      },
+      {
+        "name": "target_left_a",
+        "src": "resources/chat-icons/Symbols/target_left_a.png",
+        "unicode": "\uE008",
+        "keywords": []
+      },
+      {
+        "name": "target_right",
+        "src": "resources/chat-icons/Symbols/target_right.png",
+        "unicode": "\uE007",
+        "keywords": []
+      },
+      {
+        "name": "target_right_a",
+        "src": "resources/chat-icons/Symbols/target_right_a.png",
+        "unicode": "\uE009",
+        "keywords": []
+      },
+      {
+        "name": "timer",
+        "src": "resources/chat-icons/Symbols/timer.png",
+        "unicode": "\uE026",
+        "keywords": []
+      },
+      {
+        "name": "tooltip_negative",
+        "src": "resources/chat-icons/Symbols/tooltip_negative.png",
+        "unicode": "\uE136",
+        "keywords": []
+      },
+      {
+        "name": "tooltip_positive",
+        "src": "resources/chat-icons/Symbols/tooltip_positive.png",
+        "unicode": "\uE135",
+        "keywords": []
+      },
+      {
+        "name": "warn",
+        "src": "resources/chat-icons/Symbols/warn.png",
+        "unicode": "\uE005",
+        "keywords": []
+      },
+      {
+        "name": "warn_attr_adj",
+        "src": "resources/chat-icons/Symbols/warn_attr_adj.png",
+        "unicode": "\uE0F6",
+        "keywords": []
+      },
+      {
+        "name": "wing_left",
+        "src": "resources/chat-icons/Symbols/wing_left.png",
+        "unicode": "\uE042",
+        "keywords": []
+      },
+      {
+        "name": "wing_right",
+        "src": "resources/chat-icons/Symbols/wing_right.png",
+        "unicode": "\uE043",
+        "keywords": []
+      }
+    ]
+  },
+  {
+    "category": "VIP",
+    "icons": [
+      {
+        "name": "coin_vip01",
+        "src": "resources/chat-icons/VIP/coin_vip01.png",
+        "unicode": "\uE0C9",
+        "keywords": []
+      },
+      {
+        "name": "coin_vip02",
+        "src": "resources/chat-icons/VIP/coin_vip02.png",
+        "unicode": "\uE0CA",
+        "keywords": []
+      },
+      {
+        "name": "coin_world_VIP",
+        "src": "resources/chat-icons/VIP/coin_world_VIP.png",
+        "unicode": "\uE0BD",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_01",
+        "src": "resources/chat-icons/VIP/vip_grade_01.png",
+        "unicode": "\uE0E5",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_02",
+        "src": "resources/chat-icons/VIP/vip_grade_02.png",
+        "unicode": "\uE0E6",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_03",
+        "src": "resources/chat-icons/VIP/vip_grade_03.png",
+        "unicode": "\uE0E7",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_04",
+        "src": "resources/chat-icons/VIP/vip_grade_04.png",
+        "unicode": "\uE0E8",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_05",
+        "src": "resources/chat-icons/VIP/vip_grade_05.png",
+        "unicode": "\uE10A",
+        "keywords": []
+      },
+      {
+        "name": "vip_grade_06",
+        "src": "resources/chat-icons/VIP/vip_grade_06.png",
+        "unicode": "\uE10B",
+        "keywords": []
+      }
+    ]
+  }
+]
