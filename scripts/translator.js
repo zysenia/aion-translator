@@ -63,8 +63,6 @@ function translate() {
 
     const outputEl = document.getElementById('output');
     outputEl.textContent = output;
-    console.log('input: ' + input);
-    console.log('output: ' + output);
     outputEl.classList.remove('asmodian', 'elyos');
     outputEl.classList.add(mode === 0 ? 'elyos' : 'asmodian');
   } else {
@@ -90,7 +88,8 @@ function toggleMode() {
   translate();
 }
 
-function extractText(node, text) {
+function extractText(node) {
+  let text = '';
   if (node.nodeType === Node.TEXT_NODE) {
     text += node.textContent;
   } else if (node.nodeType === Node.ELEMENT_NODE) {
@@ -98,24 +97,41 @@ function extractText(node, text) {
       text += node.alt || '';
     } else {
       for (const child of node.childNodes) {
-        extractText(child); // check every child recursive
+        text += extractText(child); // check every child recursive
       }
     }
   }
+  return text;
 }
 
 function copyOutput() {
   const output = document.getElementById('output');
   if (!output) return;
 
-  let text = ''
-  extractText(output, text);
+  let text = extractText(output);
 
   if (!text) return;
 
-  navigator.clipboard.writeText(result)
-    .then(() => alert('Translation copied to clipboard!'))
-    .catch(() => alert('Failed to copy text'));
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        showToast(document.getElementById('copyOutputToast'), 'success', 'Copied to clipboard!');
+      })
+      .catch(() => {
+        showToast(document.getElementById('copyOutputToast'), 'error', 'Failed to copy text');
+      });
+  } else {
+    showToast(document.getElementById('copyOutputToast'), 'error', 'Clipboard not supported or HTTPS required');
+  }
+}
+
+function showToast(toast, type = 'success', message, duration = 2000) {
+  toast.textContent = message;
+  toast.className = 'toast show ' + type;
+  console.log(toast.className)
+  setTimeout(() => {
+    toast.className = 'toast ' + type;
+  }, duration);
 }
 
 function setBestBackgroundImage() {

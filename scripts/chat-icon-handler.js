@@ -101,14 +101,13 @@ function insertIconAtCursor(unicodeChar) {
 function updatePreview() {
     const output = document.getElementById('output');
     let html = output.innerHTML;
-    console.log('value: ' + html);
+
     ICON_GROUPS.forEach(group => {
         group.icons.forEach(icon => {
             const re = new RegExp(icon.unicode.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g');
             html = html.replace(re, `<img src='${icon.src}' class='emoji' alt='${icon.unicode}' loading='lazy'>`);
         });
     });
-    console.log('final html: ' + html);
     document.getElementById('output').innerHTML = html;
 }
 

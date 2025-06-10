@@ -52,7 +52,10 @@
       id='bg-image'>
   </div>
   <div class='container'>
-    <h1>Asmodian ↔ Elyos Translator for Aion</h1>
+    <h1>
+      Asmodian ↔ Elyos Translator for Aion<br />
+      <small>by Zysen</small>
+    </h1>
     <div class='mode-switch'>
       <span id='mode-label'>Mode: Asmodian → Elyos</span>
       <button onclick='toggleMode()'>Switch Faction</button>
@@ -73,12 +76,16 @@
     <p id='message-limit-warning'>You’ve reached the 255 character limit for Aion text messages.</p>
 
     <div class='output' id='output'></div>
-    <button onclick='copyOutput()'>Copy Translation</button>
+    <button onclick='copyOutput()'>
+      Copy Translation
+      <div id='copyOutputToast' class='toast'></div>
+    </button>
+    
   </div>
 
-  <footer class="footer-banner">
+  <footer class='footer-banner'>
     <p>If you've got any suggestions or problems reach out: 
-      <a href="mailto:aion-translator@zysen.de?subject=Feedback%20for%20Aion%20Translator&body=Hi%2C%0A%0AI'd%20like%20to%20report%20a%20%5Bproblem/suggestion%5D%20with%20the%20Aion%20Translator.%0A%0AHere%20are%20some%20details%3A%0A-%20Issue%20or%20Suggestion%3A%20%5Bdescribe%20here%5D%0A-%20Faction%3A%20%5BElyos/Asmodian%5D%0A-%20Example%20Chat%20Message%3A%20%5Bcopy%20text%20here%5D%0A-%20Browser%2FPlatform%3A%20%5BChrome%2C%20Firefox%2C%20etc.%5D%0A%0AThanks%21">
+      <a href='mailto:aion-translator@zysen.de?subject=Feedback%20for%20Aion%20Translator&body=Hi%2C%0A%0AI%27d%20like%20to%20report%20a%20%5Bproblem/suggestion%5D%20with%20the%20Aion%20Translator.%0A%0AHere%20are%20some%20details%3A%0A-%20Issue%20or%20Suggestion%3A%20%5Bdescribe%20here%5D%0A-%20Faction%3A%20%5BElyos/Asmodian%5D%0A-%20Example%20Chat%20Message%3A%20%5Bcopy%20text%20here%5D%0A-%20Browser%2FPlatform%3A%20%5BChrome%2C%20Firefox%2C%20etc.%5D%0A%0AThanks%21'>
         aion-translator@zysen.de
       </a>
     </p>
