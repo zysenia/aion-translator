@@ -12,8 +12,10 @@ This tool deciphers faction-specific chat, helping players understand messages s
 ## 🧰 Features
 
 - 🔁 Two-way translation between Elyos and Asmodian chat messages
+- 🕹️ Insert original Aion in-game icons (435 available, Aion 8.5) via emoji picker
+- 👁️ See icons directly in your translated text
+- 📋 Copy translations including all inserted icons
 - ⚡ Fast, intuitive UI
-- 🧠 Context-aware decoding
 - 🛡️ No ads, no tracking, fully client-side
 
 ---
