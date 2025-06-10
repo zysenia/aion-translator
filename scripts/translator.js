@@ -136,36 +136,36 @@ function showToast(toast, type = 'success', message, duration = 2000) {
 function setBestBackgroundImage() {
   const img = document.getElementById('bg-image');
   const width = window.innerWidth;
-  let bestWidth;
-  let bestHeight;
+  const height = window.innerHeight;
 
-  if (width >= 7680) {
-    bestWidth = 7680;
-  } else if (width >= 3840) {
-    bestWidth = 3840;
-  } else if (width >= 2560) {
-    bestWidth = 2560;
-  } else if (width >= 1920) {
-    bestWidth = 1920;
-  } else if (width >= 1280) {
-    bestWidth = 1280;
-  } else if (width >= 960) {
-    bestWidth = 960;
-  } else if (width >= 640) {
-    bestWidth = 640;
-  }
-  else if (width >= 412) {
-    bestWidth = 412;
-    bestHeight = 732;
-  } else {
-    bestWidth = 420;
-  }
+  const imageSizes = [
+    { width: 320,  height: 568 },
+    { width: 360,  height: 640 },
+    { width: 375,  height: 812 },
+    { width: 390,  height: 844 },
+    { width: 412,  height: 732 },
+    { width: 414,  height: 896 },
+    { width: 428,  height: 926 },
+    { width: 430,  height: 932 },
+    { width: 440,  height: 956 },
+    { width: 420,  height: 236 }, // Fallback for very small screens
+    { width: 640,  height: 360 },
+    { width: 960,  height: 540 },
+    { width: 1280, height: 720 },
+    { width: 1920, height: 1080 },
+    { width: 2560, height: 1440 },
+    { width: 3840, height: 2160 },
+    { width: 7680, height: 4320 }
+  ];
 
-  if (!bestHeight) {
-    bestHeight = Math.round(bestWidth / 16 * 9);
-  }
+  let bestMatch = imageSizes.find(size => width <= size.width && height <= size.height);
 
-  img.src = `resources/aion-asmo-${bestWidth}x${Math.round(bestHeight)}.png`;
+  if (!bestMatch) {
+    bestMatch = imageSizes[imageSizes.length - 1];
+  }
+  console.log('width x height: ' + width + ' x ' + height);
+  console.log('bestMatch: ' + bestMatch.width + ' x ' + bestMatch.height);
+  img.src = `resources/aion-asmo-${bestMatch.width}x${Math.round(bestMatch.height)}.png`;
   img.removeAttribute('srcset');
 }
 
