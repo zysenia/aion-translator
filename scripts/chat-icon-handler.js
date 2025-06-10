@@ -31,7 +31,6 @@ function renderPickerTabs() {
     tabs.innerHTML = '';
 
     if (search) {
-        // Optional: show a neutral label instead of tabs
         const label = document.createElement('div');
         label.textContent = 'Search results';
         label.style.padding = '6px 12px';
@@ -60,10 +59,9 @@ function renderPickerIcons() {
     let icons;
 
     if (search) {
-        // Flatten all icons from all groups and filter by search
         icons = ICON_GROUPS.flatMap(group => group.icons.map(icon => ({
             ...icon,
-            groupName: group.name // Optionally keep group info for display
+            groupName: group.name
         }))).filter(icon =>
             icon.name.toLowerCase().includes(search) ||
             (icon.keywords && icon.keywords.some(kw => kw.toLowerCase().includes(search)))

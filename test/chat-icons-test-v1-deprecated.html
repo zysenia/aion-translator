@@ -85,7 +85,7 @@
 <div id='container'>
   <div style='display:flex; align-items:center; position:relative;'>
     <input id='chatinput' type='text' autocomplete='off' oninput='updatePreview()'>
-    <button class='picker-btn' id='openPickerBtn' title='Icon auswählen' type='button'>
+    <button class='picker-btn' id='openPickerBtn' title='select icon' type='button'>
       <img src='../resources/chat-icons/Emoticons/emoticon_wink.png' alt='Icon'>
     </button>
     <div class='picker-popup' id='iconPicker'>
@@ -173,7 +173,7 @@ function renderPickerIcons() {
   }
 
   if (icons.length === 0) {
-    iconsDiv.innerHTML = '<div style="padding:10px;color:#888;">Keine Icons gefunden.</div>';
+    iconsDiv.innerHTML = '<div style="padding:10px;color:#888;">No icons found.</div>';
     return;
   }
   icons.forEach(icon => {
