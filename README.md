@@ -4,6 +4,7 @@
 
 **Easily translate messages between Elyos and Asmodians in Aion.**  
 This tool deciphers faction-specific chat, helping players understand messages sent by the opposing race.
+You can also use it to compose your own messages in a way that the other faction can understand.
 
 🌐 Try it live: [https://aion-translator.zysen.de](https://aion-translator.zysen.de)
 
@@ -22,7 +23,7 @@ This tool deciphers faction-specific chat, helping players understand messages s
 
 ## 📌 Purpose
 
-In Aion, communication between Elyos and Asmodians is scrambled in faction chat. This tool helps bridge that gap by translating scrambled messages to readable form, enhancing roleplay, strategy, and communication in-game.
+In Aion, communication between Elyos and Asmodians is scrambled. This tool helps bridge that gap by translating scrambled messages to readable form, enhancing roleplay, strategy, and communication in-game.
 
 ---
 
