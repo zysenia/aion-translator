@@ -128,7 +128,6 @@ function copyOutput() {
 function showToast(toast, type = 'success', message, duration = 2000) {
   toast.textContent = message;
   toast.className = 'toast show ' + type;
-  console.log(toast.className)
   setTimeout(() => {
     toast.className = 'toast ' + type;
   }, duration);
