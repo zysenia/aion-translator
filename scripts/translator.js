@@ -139,18 +139,18 @@ function setBestBackgroundImage() {
   const height = window.innerHeight;
 
   const imageSizes = [
-    { width: 320,  height: 568 },
-    { width: 360,  height: 640 },
-    { width: 375,  height: 812 },
-    { width: 390,  height: 844 },
-    { width: 412,  height: 732 },
-    { width: 414,  height: 896 },
-    { width: 428,  height: 926 },
-    { width: 430,  height: 932 },
-    { width: 440,  height: 956 },
-    { width: 420,  height: 236 }, // Fallback for very small screens
-    { width: 640,  height: 360 },
-    { width: 960,  height: 540 },
+    { width: 320, height: 568 },
+    { width: 360, height: 640 },
+    { width: 375, height: 812 },
+    { width: 390, height: 844 },
+    { width: 412, height: 732 },
+    { width: 414, height: 896 },
+    { width: 428, height: 926 },
+    { width: 430, height: 932 },
+    { width: 440, height: 956 },
+    { width: 420, height: 236 }, // Fallback for very small screens
+    { width: 640, height: 360 },
+    { width: 960, height: 540 },
     { width: 1280, height: 720 },
     { width: 1920, height: 1080 },
     { width: 2560, height: 1440 },
@@ -169,9 +169,18 @@ function setBestBackgroundImage() {
   img.removeAttribute('srcset');
 }
 
+function resizeBgWrapper() {
+  document.querySelector('.bg-image-wrapper').style.height = document.body.scrollHeight + 'px';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('input').addEventListener('input', translate);
   setBestBackgroundImage();
+  window.addEventListener('resize', setBestBackgroundImage);
+  window.addEventListener('resize', resizeBgWrapper);
+  window.addEventListener('scroll', resizeBgWrapper);
+  window.addEventListener('touchmove', resizeBgWrapper);
+  document.getElementsByClassName('translator-info')[0].classList.add('appear');
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js');
   }
