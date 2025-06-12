@@ -4,6 +4,7 @@ const APP_SHELL = [
   '/css/style.css',
   '/assets/fonts/Cinzel-VariableFont_wght.ttf',
   '/script/translator.js',
+  '/scripts/chat-icon-handler.js',
   '/manifest.json',
   '/resources/chat-icons/metadata.json'
 ];
