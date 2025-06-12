@@ -36,9 +36,10 @@ self.addEventListener('fetch', event => {
       return fetch(req).then(response => {
         // Cache icon images and other requests as needed
         if (
-          req.url.endsWith('.png') ||
-          req.url.endsWith('.jpg') ||
-          req.url.endsWith('.webp')
+          req.url.endsWith('.ico') ||
+          req.url.endsWith('.png') //||
+          //req.url.endsWith('.jpg') ||
+          //req.url.endsWith('.webp')
         ) {
           const respClone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(req, respClone));
