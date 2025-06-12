@@ -1,0 +1,17 @@
+# Generated legal HTML pages (not source files)
+impressum.html
+datenschutz.html
+
+# Sensitive configuration
+config/secret_config.json
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
