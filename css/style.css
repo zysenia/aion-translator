@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/assets/fonts/Cinzel-VariableFont__wght.ttf') format('truetype');
+  font-weight: 300 900; /* Bereich der Gewichte */
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "kern", "liga";
+}
+
 body {
   font-family: 'Cinzel', serif;
   color: #eee;

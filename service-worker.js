@@ -1,10 +1,11 @@
-const CACHE_NAME = 'aion-icons-cache-v0.1.0';
+const CACHE_NAME = 'aion-icons-cache-v0.1.1';
 const APP_SHELL = [
   '/index.html',
   '/css/style.css',
+  '/assets/fonts/Cinzel-VariableFont_wght.ttf',
   '/script/translator.js',
   '/manifest.json',
-  '/resources/chat-icons/metadata.json',
+  '/resources/chat-icons/metadata.json'
 ];
 
 // Install: Cache app shell and metadata
