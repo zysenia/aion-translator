@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: 'Cinzel';
-  src: url('/assets/fonts/Cinzel-VariableFont__wght.ttf') format('truetype');
-  font-weight: 300 900; /* Bereich der Gewichte */
+  src: url('/assets/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
   font-style: normal;
   font-display: swap;
   font-feature-settings: "kern", "liga";
@@ -26,18 +26,17 @@ body {
 }
 
 .bg-image-wrapper {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
   z-index: -1;
   overflow: hidden;
 }
 
 .bg-image {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   object-position: center;
   object-fit: cover;
   display: block;
@@ -61,7 +60,7 @@ h1 {
   max-width: 700px;
   width: 100%;
   backdrop-filter: blur(6px);
-  margin-bottom: 25px;
+  margin-bottom: 5vh;
 }
 
 textarea {
@@ -277,6 +276,40 @@ button:hover {
 .picker-icon img {
   width: 28px;
   height: 28px;
+}
+
+
+/* INFO SECTION **/
+#translator-info {
+  max-width: 800px;
+  margin: 4rem auto 2rem auto;
+  padding: 2rem;
+  background-color: rgba(20, 20, 20, 0.8); /* semi-transparent dark bg */
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+#translator-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+#translator-info p {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+#translator-info.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
