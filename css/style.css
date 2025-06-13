@@ -213,7 +213,7 @@ button:hover {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
-  min-width: 320px;
+  width: 100%;
   padding: 12px;
   top: 60px;
 }
@@ -231,8 +231,11 @@ button:hover {
 
 .picker-tabs {
   display: flex;
+  overflow-x: auto;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .picker-tab {
@@ -254,6 +257,31 @@ button:hover {
   gap: 8px;
   max-height: 180px;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #6bc1ff #222c38;
+}
+
+/* Chrome, Edge, Safari */
+.picker-icons::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 6px;
+  background: #222c38;
+}
+
+.picker-icons::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #2956a3, #2b9bd9);
+  border-radius: 6px;
+  min-height: 40px;
+  box-shadow: 0 2px 8px rgba(92, 164, 255, 0.2);
+}
+
+.picker-icons::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #2b9bd9, #6bc1ff);
+}
+
+.picker-icons::-webkit-scrollbar-track {
+  background: #222c38;
+  border-radius: 6px;
 }
 
 .picker-icon {
