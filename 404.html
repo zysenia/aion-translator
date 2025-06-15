@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta name='robots' content='noindex, follow'>
+    <meta name="description" content="404 error – The page you’re looking for could not be found. Return to the Aion Translator homepage or report an issue if you think this is a mistake." /> 
+    <title>404 – Page Not Found | Aion Translator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #2e2f4b 70%, #e8b4d0 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+        }
+
+        .container-404 {
+            background: rgba(20, 22, 34, 0.97);
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+            padding: 2rem 1.5rem 1.5rem 1.5rem;
+            max-width: 340px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .glow {
+            color: #e0e7ff;
+            text-shadow: 0 0 8px #5ecffb, 0 0 24px #5ecffb;
+            font-size: 2.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .emoji {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+            filter: drop-shadow(0 0 6px #5ecffb);
+        }
+
+        .desc {
+            color: #bfc9e4;
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .button {
+            background: linear-gradient(90deg, #3c8ed9 60%, #5ecffb 100%);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.8rem 1.2rem;
+            font-size: 1.05rem;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(94, 207, 251, 0.13);
+            margin-bottom: 1rem;
+            transition: background 0.2s;
+        }
+
+        .button:hover {
+            background: linear-gradient(90deg, #5ecffb 60%, #3c8ed9 100%);
+        }
+
+        .links {
+            margin-top: 0.7rem;
+            font-size: 0.97rem;
+        }
+
+        .links a {
+            color: #5ecffb;
+            text-decoration: underline;
+            margin: 0 0.3rem;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #3c8ed9;
+        }
+
+        @media (max-width: 400px) {
+            .container-404 {
+                padding: 1.2rem 0.5rem 1rem 0.5rem;
+                max-width: 98vw;
+            }
+
+            .glow {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* ...existing styles... */
+        .footer-banner {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #38405a;
+            color: #8fa2c7;
+            font-size: 0.98rem;
+            text-align: center;
+            background: none;
+        }
+
+        .footer-banner a {
+            color: #5ecffb;
+            text-decoration: underline;
+            margin: 0 0.3rem;
+            transition: color 0.2s;
+        }
+
+        .footer-banner a:hover {
+            color: #3c8ed9;
+        }
+
+        @media (max-width: 400px) {
+            .footer-banner {
+                font-size: 0.92rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container-404'>
+        <div class='emoji'>😕</div>
+        <div class='glow'>404 – Page Not Found</div>
+        <div class='desc'>
+            Oops! The page you’re looking for doesn’t exist.<br>
+            Maybe it was moved, deleted, or never existed.<br>
+            <br>
+            Try heading back home to use the translator!
+        </div>
+        <button class='button' onclick='window.location.href="/"'>Back to Home</button>
+        <div class='links'>
+            <a href='mailto:aion-translator@zysen.de?subject=404%20Error%20Report'>Report issue</a>
+        </div>
+        <footer class='footer-banner'>
+            <p>
+                <a href='/impressum'>Impressum</a> |
+                <a href='/datenschutz'>Datenschutzerklärung</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
