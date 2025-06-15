@@ -5,15 +5,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta name='description'
-    content='Aion Translator lets you easily translate Elyos and Asmodian messages, featuring a unique emoticon picker for Aion’s in-game icons. Enhance your faction chat—try our free translator now!' />
-  <meta property='og:title' content='Aion Translator – Free & Easy to use Aion Translation Tool by Zysen' />
+    content='Free Aion faction chat translator. Instantly convert Elyos ↔ Asmodian messages with support for 400+ in-game chat Icons. For Classic, Retail & private Servers.' />
+  <meta property='og:title' content='Aion Translator by Zysen – Elyos ↔ Asmodian with 400+ in-game icons' />
   <meta property='og:description'
-    content='Easily translate messages between Elyos and Asmodians in Aion. Our tool deciphers faction chat so you can understand what the other side is saying.' />
+    content='Translate Elyos ↔ Asmodian chat in Aion with support for 400+ in-game chat icons. Works on Classic, Retail, and private servers. Fast, free, and ad-free.' />
   <meta property='og:image' content='https://aion-translator.zysen.de/assets/images/og-aion-translator-by-zysen.png' />
   <meta property='og:url' content='https://aion-translator.zysen.de' />
   <meta name='twitter:card' content='summary_large_image' />
   <link rel='canonical' href='https://aion-translator.zysen.de' />
-  <title>Aion Translator – Free & Easy to use Aion Translation Tool</title>
+  <title>Aion Translator – Elyos ↔ Asmodian with 400+ in-game icons</title>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -21,7 +21,7 @@
   "name": "Aion Translator",
   "url": "https://aion-translator.zysen.de/",
   "applicationCategory": "GameApplication",
-  "description": "Free Aion translation tool with emoticon picker for in-game icons. Instantly translate Elyos and Asmodian chat messages.",
+  "description": "Free Aion faction chat translator for Elyos and Asmodian messages with support for 400+ in-game icons. Works on Classic, Retail, and private servers.",
   "operatingSystem": "All",
   "offers": {
     "@type": "Offer",
@@ -54,6 +54,7 @@
 </head>
 
 <body>
+  <a href="#site-footer" class="visually-hidden-focusable">Skip to footer</a>
   <div class='bg-image-wrapper'>
     <picture id='bg-picture'>
       <source srcset='assets/images/backgrounds/aion-asmodian-faction-bg-1920x1080.avif' type='image/avif' id='bg-avif'>
@@ -84,10 +85,13 @@
     </h1>
     <div class='mode-switch'>
       <span id='mode-label'>Mode: Asmodian → Elyos</span>
-      <button onclick='toggleMode()'>Switch Faction</button>
+      <button id='toggle-mode' onclick='toggleMode()' aria-pressed='false'
+        aria-label='Switch translation mode to Elyos → Asmodian'
+        title='Switch translation mode to Elyos → Asmodian'>Switch Faction</button>
       <div class='picker'>
-        <button class='picker-btn' id='openPickerBtn' title='select icon' type='button'>
-          <img src='/assets/images/chat-icons/Emoticons/emoticon_wink.png' alt='Icon'>
+        <button class='picker-btn' id='openPickerBtn' aria-expanded='false' aria-controls='iconPicker'
+          aria-label='Open icon picker menu' title='Open icon picker menu' type='button'>
+          <img src='/assets/images/chat-icons/Emoticons/emoticon_wink.png' alt='Open icon picker menu'>
         </button>
         <div class='picker-popup' id='iconPicker'>
           <input class='picker-search' id='pickerSearch' placeholder='Search... [still in development]'
@@ -102,13 +106,14 @@
     <p id='message-limit-warning'>You’ve reached the 255 character limit for Aion text messages.</p>
 
     <div class='output' id='output'></div>
-    <button onclick='copyOutput()'>
+    <button onclick='copyOutput()' aria-controls='copyOutputToast'
+      aria-label='Copy translated message to clipboard'>
       Copy Translation
-      <div id='copyOutputToast' class='toast'></div>
+      <div id='copyOutputToast' class='toast' aria-live='polite' aria-hidden='true'></div>
     </button>
 
-    <section class='translator-info'>
-      <h2>Translate Elyos and Asmodian Faction Chat</h2>
+    <section class='translator-info' aria-labelledby='translatorInfoHeading'>
+      <h2 id='translatorInfoHeading'>Translate Elyos and Asmodian Faction Chat</h2>
       <p>
         Aion Translator is a lightweight tool designed to decode cross-faction chat in Aion Classic and Retail.
         It helps players make sense of scrambled messages sent between Elyos and Asmodians and also allows composing
@@ -123,7 +128,7 @@
     </section>
   </div>
 
-  <footer class='footer-banner'>
+  <footer class='footer-banner' id='site-footer' role='contentinfo'>
     <p>If you've got any suggestions or problems reach out:
       <a
         href='mailto:aion-translator@zysen.de?subject=Feedback%20for%20Aion%20Translator&body=Hi%2C%0A%0AI%27d%20like%20to%20report%20a%20%5Bproblem/suggestion%5D%20with%20the%20Aion%20Translator.%0A%0AHere%20are%20some%20details%3A%0A-%20Issue%20or%20Suggestion%3A%20%5Bdescribe%20here%5D%0A-%20Faction%3A%20%5BElyos/Asmodian%5D%0A-%20Example%20Chat%20Message%3A%20%5Bcopy%20text%20here%5D%0A-%20Browser%2FPlatform%3A%20%5BChrome%2C%20Firefox%2C%20etc.%5D%0A%0AThanks%21'>

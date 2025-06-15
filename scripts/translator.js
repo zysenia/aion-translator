@@ -78,20 +78,27 @@ function toggleMode() {
   mode = 1 - mode;
   document.getElementById('mode-label').textContent =
     mode === 0 ? 'Mode: Asmodian → Elyos' : 'Mode: Elyos → Asmodian';
-  const bg_avif = document.getElementById('bg-avif')
+  const bg_avif = document.getElementById('bg-avif');
   //const bg_webp = document.getElementById('bg-webp')
-  const bg_image = document.getElementById('bg-image')
+  const bg_image = document.getElementById('bg-image');
+  const toggle_button = document.getElementById('toggle-mode');
 
   if (mode === 0) {
     bg_avif.srcset = bg_avif.srcset.replace('elyos', 'asmodian');
     //bg_webp.srcset = bg_webp.srcset.replace('elyos', 'asmodian');
     bg_image.src = bg_image.src.replace('elyos', 'asmodian');
     bg_image.alt = bg_image.alt.replace('Elyos', 'Asmodian');
+    toggle_button.setAttribute('aria-pressed', 'false');
+    toggle_button.setAttribute('aria-label', 'Switch translation mode to Elyos → Asmodian');
+    toggle_button.setAttribute('title', 'Switch translation mode to Elyos → Asmodian');
   } else {
     bg_avif.srcset = bg_avif.srcset.replace('asmodian', 'elyos');
     //bg_webp.srcset = bg_webp.srcset.replace('asmodian', 'elyos');
     bg_image.src = bg_image.src.replace('asmodian', 'elyos');
     bg_image.alt = bg_image.alt.replace('Asmodian', 'Elyos');
+    toggle_button.setAttribute('aria-pressed', 'true');
+    toggle_button.setAttribute('aria-label', 'Switch translation mode to Asmodian → Elyos');
+    toggle_button.setAttribute('title', 'Switch translation mode to Asmodian → Elyos');
   }
   translate();
 }
@@ -135,9 +142,12 @@ function copyOutput() {
 
 function showToast(toast, type = 'success', message, duration = 2000) {
   toast.textContent = message;
+  toast.setAttribute('aria-hidden', 'false');
   toast.className = 'toast show ' + type;
   setTimeout(() => {
     toast.className = 'toast ' + type;
+    toast.setAttribute('aria-hidden', 'true');
+    toast.textContent = '';
   }, duration);
 }
 

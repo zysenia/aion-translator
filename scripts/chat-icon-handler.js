@@ -14,6 +14,7 @@ document.getElementById('openPickerBtn').onclick = function (e) {
         renderPickerTabs();
         renderPickerIcons();
         document.getElementById('pickerSearch').focus();
+        document.getElementById('openPickerBtn').setAttribute('aria-expanded', 'true')
     }
 };
 
@@ -22,6 +23,7 @@ document.addEventListener('mousedown', function (e) {
     const btn = document.getElementById('openPickerBtn');
     if (!picker.contains(e.target) && !btn.contains(e.target)) {
         picker.classList.remove('visible');
+        document.getElementById('openPickerBtn').setAttribute('aria-expanded', 'false')
     }
 });
 
