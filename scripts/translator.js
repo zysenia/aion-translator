@@ -78,13 +78,21 @@ function toggleMode() {
   mode = 1 - mode;
   document.getElementById('mode-label').textContent =
     mode === 0 ? 'Mode: Asmodian → Elyos' : 'Mode: Elyos → Asmodian';
-  bg_image = document.getElementById('bg-image')
-  bg_image.src =
-    mode === 0 ? bg_image.src.replace('elyos', 'asmo') : bg_image.src.replace('asmo', 'elyos');
-  bg_image.srcset =
-    mode === 0 ? bg_image.srcset.replaceAll('elyos', 'asmo') : bg_image.srcset.replaceAll('asmo', 'elyos');
-  bg_image.alt =
-    mode === 0 ? bg_image.alt.replace('Elyos', 'Asmodian') : bg_image.alt.replace('Asmodian', 'Elyos');
+  const bg_avif = document.getElementById('bg-avif')
+  //const bg_webp = document.getElementById('bg-webp')
+  const bg_image = document.getElementById('bg-image')
+
+  if (mode === 0) {
+    bg_avif.srcset = bg_avif.srcset.replace('elyos', 'asmodian');
+    //bg_webp.srcset = bg_webp.srcset.replace('elyos', 'asmodian');
+    bg_image.src = bg_image.src.replace('elyos', 'asmodian');
+    bg_image.alt = bg_image.alt.replace('Elyos', 'Asmodian');
+  } else {
+    bg_avif.srcset = bg_avif.srcset.replace('asmodian', 'elyos');
+    //bg_webp.srcset = bg_webp.srcset.replace('asmodian', 'elyos');
+    bg_image.src = bg_image.src.replace('asmodian', 'elyos');
+    bg_image.alt = bg_image.alt.replace('Asmodian', 'Elyos');
+  }
   translate();
 }
 
@@ -134,7 +142,15 @@ function showToast(toast, type = 'success', message, duration = 2000) {
 }
 
 function setBestBackgroundImage() {
+  const avif = document.getElementById('bg-avif');
+  //const webp = document.getElementById('bg-webp')
   const img = document.getElementById('bg-image');
+
+  let currentFaction = 'asmodian';
+  if (img.src.includes('elyos')) {
+    currentFaction = 'elyos';
+  }
+
   const width = window.innerWidth;
   const height = window.innerHeight;
 
@@ -165,7 +181,9 @@ function setBestBackgroundImage() {
   }
   console.log('width x height: ' + width + ' x ' + height);
   console.log('bestMatch: ' + bestMatch.width + ' x ' + bestMatch.height);
-  img.src = `resources/aion-asmo-${bestMatch.width}x${Math.round(bestMatch.height)}.png`;
+  avif.srcset = `/assets/images/backgrounds/aion-${currentFaction}-faction-bg-${bestMatch.width}x${Math.round(bestMatch.height)}.avif`;
+  //webp.srcset = `/assets/images/backgrounds/aion-${currentFaction}-faction-bg-${bestMatch.width}x${Math.round(bestMatch.height)}.webp`;
+  img.src = `/assets/images/backgrounds/aion-${currentFaction}-faction-bg-${bestMatch.width}x${Math.round(bestMatch.height)}.png`;
   img.removeAttribute('srcset');
 }
 

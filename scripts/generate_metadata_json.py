@@ -8,7 +8,7 @@ import re
 # ------------------------------
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.normpath(os.path.join(SCRIPT_DIR, '..'))
-CATEGORIES_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, '..', 'resources', 'chat-icons'))
+CATEGORIES_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, '..', 'assets', 'images', 'chat-icons'))
 XML_PATH = os.path.join(CATEGORIES_DIR, 'GraphicChar.xml')
 OUTPUT_FILENAME = 'metadata.json'
 OUTPUT_PATH = os.path.join(CATEGORIES_DIR, OUTPUT_FILENAME)

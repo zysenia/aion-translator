@@ -186,6 +186,12 @@ button:hover {
 
 
 /* CHAT ICON SECTION */
+.picker {
+  display:flex; 
+  position:relative;
+  align-items:center; 
+}
+
 .picker-btn {
   background: linear-gradient(to right, #2956a3, #2b9bd9);
   width: 36px;

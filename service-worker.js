@@ -1,12 +1,12 @@
-const CACHE_NAME = 'aion-icons-cache-v0.1.1';
+const CACHE_NAME = 'aion-icons-cache-v0.1.0.5.1';
 const APP_SHELL = [
   '/index.html',
   '/css/style.css',
   '/assets/fonts/Cinzel-VariableFont_wght.ttf',
-  '/script/translator.js',
+  '/scripts/translator.js',
   '/scripts/chat-icon-handler.js',
   '/manifest.json',
-  '/resources/chat-icons/metadata.json'
+  '/assets/images/chat-icons/metadata.json'
 ];
 
 // Install: Cache app shell and metadata
@@ -37,6 +37,7 @@ self.addEventListener('fetch', event => {
         // Cache icon images and other requests as needed
         if (
           req.url.endsWith('.ico') ||
+          req.url.endsWith('.avif') ||
           req.url.endsWith('.png') //||
           //req.url.endsWith('.jpg') ||
           //req.url.endsWith('.webp')

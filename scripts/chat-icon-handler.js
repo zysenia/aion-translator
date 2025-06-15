@@ -1,5 +1,5 @@
 let ICON_GROUPS = [];
-fetch('../resources/chat-icons/metadata.json')
+fetch('../assets/images/chat-icons/metadata.json')
     .then(response => response.json())
     .then(data => {
         ICON_GROUPS = data;
