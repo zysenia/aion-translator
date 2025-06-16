@@ -220,6 +220,11 @@ button:hover {
   align-items:center; 
 }
 
+.picker-livestatus{
+  position: absolute; 
+  left: -9999px;
+}
+
 .picker-btn {
   background: linear-gradient(to right, #2956a3, #2b9bd9);
   width: 36px;
