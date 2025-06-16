@@ -1,6 +1,6 @@
 # Aion Translator – Elyos ↔ Asmodian Chat Decoder
 
-[![Aion Translator by Zysen](https://aion-translator.zysen.de/resources/og-aion-translator-by-zysen.png)](https://aion-translator.zysen.de)
+[![Aion Translator by Zysen](https://aion-translator.zysen.de/assets/images/og-aion-translator-by-zysen.png)](https://aion-translator.zysen.de)
 
 **Easily translate messages between Elyos and Asmodians in Aion.**  
 This tool deciphers faction-specific chat, helping players understand messages sent by the opposing race.
