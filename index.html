@@ -89,11 +89,12 @@
         aria-label='Switch translation mode to Elyos → Asmodian'
         title='Switch translation mode to Elyos → Asmodian'>Switch Faction</button>
       <div class='picker'>
-        <button class='picker-btn' id='openPickerBtn' aria-expanded='false' aria-controls='iconPicker'
+        <div class='picker-livestatus' id='pickerLiveStatus' aria-live='polite'></div>
+          <button class='picker-btn' id='openPickerBtn' aria-expanded='false' aria-controls='iconPicker'
           aria-label='Open icon picker menu' title='Open icon picker menu' type='button'>
           <img src='/assets/images/chat-icons/Emoticons/emoticon_wink.png' alt='Open icon picker menu'>
         </button>
-        <div class='picker-popup' id='iconPicker'>
+        <div class='picker-popup' id='iconPicker' aria-label='Icon picker menu'>
           <input class='picker-search' id='pickerSearch' placeholder='Search... [still in development]'
             oninput='renderPickerTabs(); renderPickerIcons()'>
           <div class='picker-tabs' id='pickerTabs'></div>
